@@ -1,0 +1,31 @@
+<nav class="p-4 my-4 mx-auto bg-white rounded-lg shadow-md">
+    <div class="flex items-center justify-between flex-wrap">
+        <!-- Logo or whatever-->
+        <strong class="text-2xl font-bold font-oswald px-2 text-green-700">Roberto Ferrari</strong>
+
+        <!-- Hamburger button for mobile -->
+        <button class="md:hidden text-gray-700 hover:text-green-700 hover:cursor-pointer" (click)="toggleMenu()">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+            </svg>
+        </button>
+
+        <div class="flex flex-col md:flex-row md:contents md:items-center gap-4 overflow-hidden w-full md:w-auto
+        transition-all duration-600 ease-in-out" 
+        [class.max-h-0]="!isMenuOpen()"
+        [class.opacity-0]="!isMenuOpen()"
+        [class.max-h-96]="isMenuOpen()"
+        [class.opacity-100]="isMenuOpen()">
+
+            <!-- Left Side: Navigation Links -->
+            <div (click)="toggleMenu()" class="flex flex-col md:flex-row items-center gap-2">
+                <a routerLink="/" routerLinkActive="!text-green-700" [routerLinkActiveOptions]="{ exact: true }" class="nav-link">Curriculum Vita</a>
+                <a routerLink="/ricerche" routerLinkActive="!text-green-700" class="nav-link">Ricerche</a>
+                <a routerLink="/publicazioni" routerLinkActive="!text-green-700" class="nav-link">Publicazioni</a>
+                <a routerLink="/interventi" routerLinkActive="!text-green-700" class="nav-link">Interventi</a>
+                <a routerLink="/interviste" routerLinkActive="!text-green-700" class="nav-link">Interviste</a>
+                <a routerLink="/altri-lavori" routerLinkActive="!text-green-700" class="nav-link">Altri lavori</a>
+            </div>
+        </div>
+    </div>
+</nav>
