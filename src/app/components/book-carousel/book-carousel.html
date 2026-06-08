@@ -1,0 +1,24 @@
+<div class="relative select-none overflow-hidden">
+    <div class="absolute right-4 top-1/4 sm:top-1/2 transform -translate-y-1/2 cursor-pointer transition-all bg-white/50 hover:bg-white duration-200 hover:scale-110
+    shadow-md hover:shadow-lg rounded-full p-2 z-10" (click)="scrollBooks(1)">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor"
+            class="w-5 h-5">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+        </svg>
+    </div>
+    <div class="absolute left-4 top-1/4 sm:top-1/2 transform -translate-y-1/2 cursor-pointer transition-all bg-white/50 hover:bg-white duration-200 hover:scale-110
+    shadow-md hover:shadow-lg rounded-full p-2 z-10" (click)="scrollBooks(-1)">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor"
+            class="w-5 h-5">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 19.5L8.25 12l7.5-7.5" />
+        </svg>
+    </div>
+    <div class="flex w-full transition-transform duration-500 ease-in-out" [style.transform]="transformOffset()">
+        @for (book of books(); track book.id) {
+        <div class="w-full shrink-0">
+            <app-book-card [book]="book"></app-book-card>
+        </div>
+        }
+    </div>
+
+</div>

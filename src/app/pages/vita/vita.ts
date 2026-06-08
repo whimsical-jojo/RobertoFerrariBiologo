@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, input } from '@angular/core';
 
 @Component({
   selector: 'app-vita',
@@ -6,4 +6,6 @@ import { Component } from '@angular/core';
   templateUrl: './vita.html',
   styleUrl: './vita.css',
 })
-export class Vita {}
+export class Vita {
+  isPreview = input<boolean>(false);
+}

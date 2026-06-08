@@ -8,3 +8,9 @@ interface Book {
     linkLabel: string;
     linkUrl: string;
 }
+
+interface Video {
+    id: number;
+    title: string;
+    url: string;
+}
