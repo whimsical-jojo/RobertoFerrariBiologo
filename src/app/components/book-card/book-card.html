@@ -1,0 +1,22 @@
+<!-- Image on the Right, Title and Subtitle, details underneath that, with buy button under that, and description with extension underneath-->
+<div class="bg-gray-50 rounded-xl border-0.5 p-6 md:p-12 shadow-xl mb-8">
+    <div class="flex flex-col sm:flex-row items-start gap-6">
+        <img [src]="book().imageUrl" alt="{{ book().title }} cover image
+        " class="w-2/3 sm:w-1/3 h-auto my-4 object-fill rounded-lg shadow-md mx-auto">
+        <div class="ml-6 ">
+            <div class="contents divide-y divide-gray-300">
+            <h1 class="text-primary text-3xl font-extrabold">{{ book().title }}</h1>
+            <h2 class="text-gray-800 text-xl">{{ book().subtitle }}</h2>
+            <p class="text-gray-600! text-sm">{{ book().details}}</p>
+            </div>
+            <a class="bg-primary text-white py-4 px-4 rounded-lg hover:bg-secondary transition-colors block
+            mx-auto ease-in-out duration-200 w-fit my-12" [href]="book().linkUrl" target="_blank">{{ book().linkLabel}}</a>
+            <p [class.line-clamp-5]="!isOpen()" class="my-12">{{ book().description }}</p>
+            
+            <button (click)="toggleDescription()" class="text-primary hover:underline text-sm font-medium">
+                {{ !isOpen() ? 'Mostra di più' : 'Mostra meno' }}
+            </button>
+        </div>
+    </div>
+
+</div>

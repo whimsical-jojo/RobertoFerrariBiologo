@@ -1,10 +1,10 @@
-<nav class="p-4 my-4 mx-auto bg-white rounded-lg shadow-md">
-    <div class="flex items-center justify-between flex-wrap">
+<nav class="p-4 my-4 mx-auto bg-gray-50 rounded-xl shadow-xl">
+    <div class="flex items-center justify-between flex-wrap lg:flex-nowrap">
         <!-- Logo or whatever-->
-        <strong class="text-2xl font-bold font-oswald px-2 text-green-700">Roberto Ferrari</strong>
+        <strong class="text-xl sm:text-2xl font-bold font-oswald px-2 text-primary">Roberto Ferrari</strong>
 
         <!-- Hamburger button for mobile -->
-        <button class="md:hidden text-gray-700 hover:text-green-700 hover:cursor-pointer" (click)="toggleMenu()">
+        <button class="md:hidden text-gray-700 hover:text-primary hover:cursor-pointer" (click)="toggleMenu()">
             <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
             </svg>
@@ -17,14 +17,14 @@
         [class.max-h-96]="isMenuOpen()"
         [class.opacity-100]="isMenuOpen()">
 
-            <!-- Left Side: Navigation Links -->
-            <div (click)="toggleMenu()" class="flex flex-col md:flex-row items-center gap-2">
-                <a routerLink="/" routerLinkActive="!text-green-700" [routerLinkActiveOptions]="{ exact: true }" class="nav-link">Curriculum Vita</a>
-                <a routerLink="/ricerche" routerLinkActive="!text-green-700" class="nav-link">Ricerche</a>
-                <a routerLink="/publicazioni" routerLinkActive="!text-green-700" class="nav-link">Publicazioni</a>
-                <a routerLink="/interventi" routerLinkActive="!text-green-700" class="nav-link">Interventi</a>
-                <a routerLink="/interviste" routerLinkActive="!text-green-700" class="nav-link">Interviste</a>
-                <a routerLink="/altri-lavori" routerLinkActive="!text-green-700" class="nav-link">Altri lavori</a>
+            <!-- Navigation Links -->
+            <div (click)="toggleMenu()" class="flex flex-col md:flex-row items-center gap-2 divide-y md:divide-y-0 md:divide-x divide-gray-300">
+                <a routerLink="/" routerLinkActive="!text-primary" [routerLinkActiveOptions]="{ exact: true }" class="nav-link">Home</a>
+                <a routerLink="/vita" routerLinkActive="!text-primary" class="nav-link">Curriculum Vita</a>
+                <a routerLink="/pubblicazioni" routerLinkActive="!text-primary" class="nav-link">Pubblicazioni e altri lavori</a>
+                <a routerLink="/ricerche" routerLinkActive="!text-primary" class="nav-link">Ricerche</a>
+                <a routerLink="/interventi" routerLinkActive="!text-primary" class="nav-link">Interventi</a>
+                <a routerLink="/video" routerLinkActive="!text-primary" class="nav-link">Video</a>
             </div>
         </div>
     </div>

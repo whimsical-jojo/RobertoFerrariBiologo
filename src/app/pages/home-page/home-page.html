@@ -1,0 +1,6 @@
+<!-- On top: Books with the scrolling component-->
+<!-- On the left the pic with the first two paragraphs -->
+<!-- On the right a preview of the video interviews-->
+@for (book of books(); track book.id) {
+  <app-book-card [book]="book"></app-book-card>
+}
