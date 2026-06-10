@@ -8,12 +8,37 @@
     }
   </div>
   <div class="flex flex-col md:flex-row gap-4">
-    <div class="flex flex-col items-start gap-3 w-full sm:w-1/2 relative">
+    <div
+      class="w-full flex flex-col items-start gap-3 sm:w-1/2 bg-white rounded-xl border border-gray-100 p-6 md:p-12 shadow-md">
+      <!-- Screw it I wanted to re-use the biography, but I've got different texts anyway-->
+      <div class="divide-y divide-gray-300">
+        <h1 class="text-xl md:text-2xl lg:text-3xl font-extrabold text-primary mb-4">Biografia</h1>
+        <img src="./RFerrari.png" alt="Roberto Ferrari" class="w-full max-h-smmx-auto mb-6 rounded-lg shadow-xl
+            object-cover">
+      </div>
 
-      <app-vita [isPreview]="true"></app-vita>
+      <p class="text-left md:text-justify">
+        Roberto Ferrari, biologo, ha svolto per trent’anni
+        attività di ricerca nel campo degli insetti sociali
+        e dell’etologia cognitiva presso l’Università
+        di Bologna. È docente di Mindfulness al Master
+        presso l’Università La Sapienza di Roma e insegna
+        presso la Scuola di Psicoterapia “Nous” di Milano
+        e la Scuola Superiore di Filosofia Orientale
+        e Comparativa di Rimini. Ha fondato il Centro
+        “Mente&Vita” presso l’associazione asia Modena,
+        operando all’interno di progetti di ricerca sulla
+        Mindfulness in ospedali con pazienti oncologici
+        e personale sanitario, in scuole e carceri. Tra le sue
+        pubblicazioni, Lo sguardo senz’occhio. Esperimenti sulla
+        mente cosciente tra scienza e meditazione (con Franco
+        Bertossa, Milano 2005), Sfere invisibili. All’interno degli
+        habitat animali (Modena 2011) e Un respiro alla volta.
+        Storie di mindfulness in Oncologia e tra gli animali
+        (Bologna 2021).
+      </p>
 
-      <button
-        class="text-primary hover:underline hover:text-secondary cursor-pointer text-sm font-medium mt-1 absolute bottom-4 left-1/2 transform -translate-x-1/2">
+      <button class="text-primary hover:underline hover:text-secondary cursor-pointer text-sm font-medium mt-1">
         <a routerLink="/vita" routerLinkActive="active-link">
           Leggi tutta la biografia
         </a>
