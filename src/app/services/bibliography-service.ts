@@ -4,10 +4,14 @@ import { inject, Injectable } from '@angular/core';
 @Injectable({
   providedIn: 'root',
 })
-export class BookService {
+export class BibliographyService {
   http = inject(HttpClient);
 
   getBooks() {
     return this.http.get<Book[]>('./data/books.json');
+  }
+
+  getPublications() {
+    return this.http.get<Publication[]>('./data/publications.json');
   }
 }

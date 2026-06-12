@@ -2,7 +2,7 @@
 <!-- On the left the pic with the first two paragraphs -->
 <!-- On the right a preview of the video interviews-->
 <div class="flex flex-col mb-12">
-  <div>
+  <div class="mb-4">
     @if (books()) {
     <app-book-carousel [books]="books()!"></app-book-carousel>
     }
@@ -40,7 +40,7 @@
 
       <button class="text-primary hover:underline hover:text-secondary cursor-pointer text-sm font-medium mt-1">
         <a routerLink="/vita" routerLinkActive="active-link">
-          Leggi tutta la biografia
+          Biografia estesa
         </a>
       </button>
     </div>
