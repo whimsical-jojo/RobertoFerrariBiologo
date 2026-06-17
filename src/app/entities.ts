@@ -20,9 +20,20 @@ interface Publication {
     year: number;
     title: string;
     authors: string; 
-    type: 'poster' | 'book' | 'chapter' | 'journal' | 'exhibition_catalog';
+    type: 'poster' | 'book' | 'chapter' | 'journal' | 'exhibition_catalog'; //Maybe unnecessary?
     publisher?: string;
     location?: string; 
     context?: string;
     url?: string;
+}
+
+interface Event {
+  startDate: string;
+  endDate?: string;
+  hostContext: string;
+  location?: string;
+  title?: string;
+  speakers?: string[];
+  imageUrl?: string;
+  link?: string;
 }
