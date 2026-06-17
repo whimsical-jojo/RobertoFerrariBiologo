@@ -1,5 +1,6 @@
 [
   {
+    "id" : 1,
     "startDate": "2026-08-26",
     "endDate": "2026-08-30",
     "hostContext": "Summer School 2026 della Scuola Superiore di Filosofia Orientale e Comparativa",
@@ -9,6 +10,7 @@
     "imageUrl": ""
   },
   {
+    "id" : 2,
     "startDate": "2026-10-14",
     "endDate": "2026-10-18",
     "hostContext": "Festival Torino Spiritualità 2026",
@@ -16,6 +18,7 @@
     "imageUrl": ""
   },
   {
+    "id" : 3,
     "startDate": "2026-04-15",
     "endDate": "2026-04-19",
     "hostContext": "Festa Scienza Filosofia di Foligno",
@@ -23,6 +26,7 @@
     "imageUrl": ""
   },
   {
+    "id" : 4,
     "startDate": "2025-10-02",
     "endDate": "2025-10-05",
     "hostContext": "Pianeta Terra Festival 2025: Sistemi Instabili",
@@ -32,6 +36,7 @@
     "imageUrl": ""
   },
   {
+    "id" : 5,
     "startDate": "2024-07-31",
     "endDate": "2024-08-04",
     "hostContext": "Summer School 2024 della Scuola Superiore di Filosofia Orientale e Comparativa",
@@ -41,12 +46,14 @@
     "imageUrl": ""
   },
   {
+    "id" : 6,
     "startDate": "2023-11-13",
     "hostContext": "Università La Sapienza di Roma, Dipartimento di Psicologia dei processi di sviluppo e socializzazione",
     "title": "Modelli cognitivi e attenzione: un viaggio nel mondo animale",
     "imageUrl": ""
   },
   {
+    "id" : 7,
     "startDate": "2023-12-04",
     "endDate": "2023-12-05",
     "hostContext": "Simposio Meditazione, Antropologia e Cognizione, Museo Civico di Zoologia di Roma",
@@ -54,6 +61,7 @@
     "imageUrl": ""
   },
   {
+    "id" : 8,
     "startDate": "2023-10-06",
     "endDate": "2023-10-07",
     "hostContext": "Convegno 6 Oncologie, XXI incontro",
@@ -62,6 +70,7 @@
     "imageUrl": ""
   },
   {
+    "id" : 9,
     "startDate": "2022-09-30",
     "endDate": "2022-10-01",
     "hostContext": "Convegno Cortina Mindfulness",
@@ -70,6 +79,7 @@
     "imageUrl": ""
   },
   {
+    "id" : 10,
     "startDate": "2023-08-14",
     "endDate": "2023-08-20",
     "hostContext": "Santiago del Cile, Seminario Formazione Insegnanti Yoga Asia Santiago",
@@ -77,12 +87,14 @@
     "imageUrl": ""
   },
   {
+    "id" : 11,
     "startDate": "2022-04-09",
     "hostContext": "Roma Mindfulness Festival",
     "title": "Biologia dell’inter-essere. Amare il caos delle relazioni",
     "imageUrl": ""
   },
   {
+    "id" : 12,
     "startDate": "2020-05-01",
     "endDate": "2020-05-31",
     "hostContext": "Biblioteche del Comune di Modena",
@@ -91,6 +103,7 @@
     "imageUrl": ""
   },
   {
+    "id" : 13,
     "startDate": "2020-02-21",
     "hostContext": "INSERM e Institut de Recherche, de Pratique et d’Enseignement en Méditation",
     "location": "Lyon",
@@ -99,6 +112,7 @@
     "imageUrl": ""
   },
   {
+    "id" : 14,
     "startDate": "2019-10-25",
     "hostContext": "Convegno “L’intervento psicologico nel trattamento riabilitativo in Unità spinale”",
     "location": "Milano Ospedale Niguarda",
@@ -107,6 +121,7 @@
     "imageUrl": ""
   },
   {
+    "id" : 15,
     "startDate": "2019-06-22",
     "endDate": "2019-06-29",
     "hostContext": "International Cortona Week in Todi",
@@ -115,6 +130,7 @@
     "imageUrl": ""
   },
   {
+    "id" : 16,
     "startDate": "2019-07-13",
     "endDate": "2019-07-20",
     "hostContext": "Asia Vacances de L’Esprit",
@@ -124,6 +140,7 @@
     "imageUrl": ""
   },
   {
+    "id" : 17,
     "startDate": "2018-10-25",
     "endDate": "2018-10-27",
     "hostContext": "Convegno Nazionale CNOPUS",
@@ -133,6 +150,7 @@
     "imageUrl": ""
   },
   {
+    "id" : 18,
     "startDate": "2018-11-23",
     "hostContext": "Convegno “Mindfulness: Prospettive di Ricerca Clinica e Cura di sé”",
     "location": "Modena",
@@ -141,6 +159,7 @@
     "imageUrl": ""
   },
   {
+    "id" : 19,
     "startDate": "2018-07-14",
     "endDate": "2018-07-21",
     "hostContext": "Asia Vacances de L’Esprit",
@@ -150,6 +169,7 @@
     "imageUrl": ""
   },
   {
+    "id" : 20,
     "startDate": "2017-11-19",
     "hostContext": "Advanced Algology Research, Masterclass Medicina del Dolore 2017-18, “Il dolore cronico, dalla Neuromatrix alla gestione clinica”",
     "location": "Ferrara",
@@ -158,6 +178,7 @@
     "imageUrl": ""
   },
   {
+    "id" : 21,
     "startDate": "2017-11-11",
     "hostContext": "Nous, Scuola di Specializzazione in Psicoterapia Cognitivo-Costruttivista",
     "location": "Milano",
@@ -166,6 +187,7 @@
     "imageUrl": ""
   },
   {
+    "id" : 22,
     "startDate": "2017-07-15",
     "endDate": "2017-07-22",
     "hostContext": "Asia Vacances de L’Esprit",
@@ -175,6 +197,7 @@
     "imageUrl": ""
   },
   {
+    "id" : 23,
     "startDate": "2017-03-05",
     "hostContext": "Asia Vacances de L’Esprit",
     "location": "Bologna",
@@ -183,6 +206,7 @@
     "imageUrl": ""
   },
   {
+    "id" : 24,
     "startDate": "2017-02-11",
     "hostContext": "Associazione Asia Modena, Rassegna “A cosa mi educherai?”",
     "location": "Modena",
@@ -191,6 +215,7 @@
     "imageUrl": ""
   },
   {
+    "id" : 25,
     "startDate": "2016-07-02",
     "hostContext": "Nous, Scuola di Specializzazione in Psicoterapia Cognitivo-Costruttivista",
     "location": "Milano",
@@ -199,6 +224,7 @@
     "imageUrl": ""
   },
   {
+    "id" : 26,
     "startDate": "2016-05-11",
     "endDate": "2016-05-15",
     "hostContext": "2nd International Conference on Mindfulness",
@@ -208,6 +234,7 @@
     "imageUrl": ""
   },
   {
+    "id" : 27,
     "startDate": "2016-04-03",
     "hostContext": "Asia Vacances de L’Esprit",
     "location": "Bologna",
@@ -216,6 +243,7 @@
     "imageUrl": ""
   },
   {
+    "id" : 28,
     "startDate": "2015-04-19",
     "hostContext": "Asia Vacances de L’Esprit",
     "location": "Bologna",
@@ -224,6 +252,7 @@
     "imageUrl": ""
   },
   {
+    "id" : 29,
     "startDate": "2015-10-22",
     "endDate": "2015-10-24",
     "hostContext": "Convegno “Mindfulness, educazione e cura”",
@@ -233,6 +262,7 @@
     "imageUrl": ""
   },
   {
+    "id" : 30,
     "startDate": "2015-11-20",
     "hostContext": "Convegno “Mindfulness. Il cielo della mente: la meditazione nella scienza, nella cura, nella ricerca”",
     "location": "Modena",
@@ -241,6 +271,7 @@
     "imageUrl": ""
   },
   {
+    "id" : 31,
     "startDate": "2014-04-09",
     "hostContext": "Università di Padova, Dipartimento di Psicologia",
     "title": "Nuovi paradigmi della conoscenza tra fisica e biologia. Un seminario dialogico",
@@ -248,6 +279,7 @@
     "imageUrl": ""
   },
   {
+    "id" : 32,
     "startDate": "2014-03-18",
     "endDate": "2014-03-21",
     "hostContext": "Convegno “Mindfullness-mania”",
@@ -257,6 +289,7 @@
     "imageUrl": ""
   },
   {
+    "id" : 33,
     "startDate": "2014-03-01",
     "hostContext": "Convegno per la Giornata delle Malattie Rare, Università di Modena e Reggio E.",
     "title": "Meditare in ospedale. Impatto di un programma di Mindfulness MBSR sulla qualità della vita di pazienti con Fibrosi Polmonare",
@@ -264,14 +297,16 @@
     "imageUrl": ""
   },
   {
+    "id" : 34,
     "startDate": "2013-05-25",
     "hostContext": "École Normale Supérieure, Paris - Groupe de Travail des Archives Husserl de Philosophie et Phénoménologie de l’Animalité",
     "title": "The animal experience of contact. Zooohenomenology of the present moment",
     "speakers": ["R. Ferrari"],
-    "link": "link",
+    "link": "",
     "imageUrl": ""
   },
   {
+    "id" : 35,
     "startDate": "2012-07-10",
     "endDate": "2012-07-12",
     "hostContext": "Università di Padova - Convegno “Neuroriduzioni: possibilità e limiti”",
@@ -280,15 +315,17 @@
     "imageUrl": ""
   },
   {
+    "id" : 36,
     "startDate": "2011-12-13",
     "endDate": "2011-12-14",
     "hostContext": "Università A.Hurtado di Santiago del Cile - Convegno internazionale con F. Bertossa e M. Bitbol A las raíces de la experiencia consciente; entre fenomenología, scienza e meditación",
     "title": "Il problema della coscienza alla luce della vita e dell’opera di Francisco Varela",
     "speakers": ["R. Ferrari"],
-    "link": "link",
+    "link": "",
     "imageUrl": ""
   },
   {
+    "id" : 37,
     "startDate": "2011-03-16",
     "hostContext": "Università di Bologna Aula Magna via S. Filippo Re",
     "title": "Neuro-mania. Un dibattito sui limiti della neuroriduzione. Intervento: Neuroimmagini ed esperienza vivente in atto",
@@ -296,6 +333,7 @@
     "imageUrl": ""
   },
   {
+    "id" : 38,
     "startDate": "2010-06-11",
     "hostContext": "Biblioteca Delfini, Ciclo “Biodiversità vicina e lontana”",
     "title": "Biodiversità e percezione del limite",
@@ -303,14 +341,16 @@
     "imageUrl": ""
   },
   {
+    "id" : 39,
     "startDate": "2010-04-06",
     "hostContext": "CREA/CNRS Ecole Polytecnique de Paris, Colloques “Ecology in the first person”",
     "title": "Co-interdependency in Oceanic Islands and lived experience of finiteness",
     "speakers": ["Ferrari R."],
-    "link": "link",
+    "link": "",
     "imageUrl": ""
   },
   {
+    "id" : 40,
     "startDate": "2009-12-05",
     "endDate": "2009-12-08",
     "hostContext": "Asia Vacances de L’Esprit",
@@ -320,6 +360,7 @@
     "imageUrl": ""
   },
   {
+    "id" : 41,
     "startDate": "2009-05-22",
     "hostContext": "Università di Modena-ReggioEmilia, Dip. Biologia Animale, Corso “Biologia molecolare del benessere”",
     "title": "Meditazione e benessere: scopo o effectto collaterale?",
@@ -327,6 +368,7 @@
     "imageUrl": ""
   },
   {
+    "id" : 42,
     "startDate": "2009-02-02",
     "hostContext": "Università di Urbino ISIA, Convegno “Il Progetto Sostenibile”",
     "title": "L’isola sostenibile. Quale progetto nell’epoca della crisi ecologica?",
@@ -334,6 +376,7 @@
     "imageUrl": ""
   },
   {
+    "id" : 43,
     "startDate": "2008-06-13",
     "hostContext": "CESIPc, Scuola di terapia cognitiva ad orientamento costruttivista, Firenze - Convegno Costruttivismo e Scienze Umane: la dimensione culturale, sociale e spirituale",
     "title": "La dimensione spirituale. Costruzione e decostruzione del senso tra co-determinazione e lampi di vacuità",
@@ -341,6 +384,7 @@
     "imageUrl": ""
   },
   {
+    "id" : 44,
     "startDate": "2008-03-29",
     "hostContext": "Comune di Merano (Bz)",
     "title": "Al centro della mente. Scienza e Filosofia studiano la coscienza",
@@ -348,6 +392,7 @@
     "imageUrl": ""
   },
   {
+    "id" : 45,
     "startDate": "2008-02-19",
     "hostContext": "Università di Bologna, Facoltà di Medicina, Corso “La sperimentazione animale e la scienza medica”",
     "title": "Animali come esseri senzienti. Filosofia e biologia del sentire",
@@ -355,12 +400,14 @@
     "imageUrl": ""
   },
   {
+    "id" : 46,
     "startDate": "2007-03-13",
     "hostContext": "Paris Ecole Polytechnique CREA/CNRS, Seminario Consciousness Studies",
     "speakers": ["Bertossa F.", "Benfenati B.", "Teneggi C.", "Ferrari R.", "Ferri F."],
     "imageUrl": ""
   },
   {
+    "id" : 47,
     "startDate": "2006-10-04",
     "hostContext": "Università degli Studi di Milano - Convegno Trascendentalismo e naturalizzazione. Sulle orme della Neurofenomenologia di Francisco Varela",
     "title": "Meditazione: l’autoreferenza vissuta",
@@ -368,6 +415,7 @@
     "imageUrl": ""
   },
   {
+    "id" : 48,
     "startDate": "2006-06-24",
     "endDate": "2006-07-01",
     "hostContext": "Loiano, Palazzo Loup - International Workshop “Primordial Questions about Consciousness”",
@@ -376,6 +424,7 @@
     "imageUrl": ""
   },
   {
+    "id" : 49,
     "startDate": "2005-01-01",
     "endDate": "2008-12-31",
     "hostContext": "Università di Urbino ISIA, Anni 2005-2006-2007-2008",
@@ -384,6 +433,7 @@
     "imageUrl": ""
   },
   {
+    "id" : 50,
     "startDate": "2005-05-27",
     "hostContext": "Università degli studi di Milano, seminario ASTUFILO Neuroscienze e Fenomenologia",
     "title": "Un approccio buddista alle Scienze Cognitive. Filosofia sperimentale nell’immobilità del corpo",
@@ -391,6 +441,7 @@
     "imageUrl": ""
   },
   {
+    "id" : 51,
     "startDate": "2002-03-02",
     "endDate": "2002-03-03",
     "hostContext": "Comune di Modena, Biblioteca A.Delfini, Ciclo conferenze Scienza e Meditazione",

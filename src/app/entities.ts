@@ -16,24 +16,26 @@ interface Video {
 }
 
 interface Publication {
-    id: number; 
+    id: number;
     year: number;
     title: string;
-    authors: string; 
+    authors: string;
     type: 'poster' | 'book' | 'chapter' | 'journal' | 'exhibition_catalog'; //Maybe unnecessary?
     publisher?: string;
-    location?: string; 
+    location?: string;
     context?: string;
     url?: string;
 }
 
+//Hmm maybe calling this "Event" wasn't the best choice given Events in the browser and ugh who cares
 interface Event {
-  startDate: string;
-  endDate?: string;
-  hostContext: string;
-  location?: string;
-  title?: string;
-  speakers?: string[];
-  imageUrl?: string;
-  link?: string;
+    id: number;
+    startDate: string;
+    endDate?: string;
+    hostContext: string;
+    location?: string;
+    title?: string;
+    speakers?: string[];
+    imageUrl?: string;
+    link?: string;
 }

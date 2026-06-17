@@ -1,0 +1,29 @@
+<div class="pb-2">
+    <!-- Context -->
+    <!-- Speakers -->
+    <!-- Link -->
+    <!-- Picture on the left if there is one-->
+    <!-- Start date and end date next to each other on top alongside the place-->
+    <div class="">
+        <time class="text-sm text-gray-500">{{ event().startDate | date: 'mediumDate' : '' : 'it' }}</time>
+        @if(event().endDate) {
+        <span class="text-gray-500"> - </span>
+        <time class="text-sm text-gray-500">{{ event().endDate | date: 'mediumDate' : '' : 'it' }}</time>
+        }
+        <span class="text-sm text-gray-500!"> {{event().location}} </span>
+    </div>
+    <!-- Title and link like the publication-->
+    <h2 class="semibold text-lg md:text-xl">
+        @if (event().link) {
+        <a [href]="event().link" class="text-primary hover:cursor-pointer hover:underline hover:text-secondary"
+            target="_blank">
+            {{event().title}}
+        </a>
+        }
+        @else {
+        {{event().title}}
+        }
+    </h2>
+    <p class="text-gray-700"> {{event().hostContext}} </p>
+    <p class="text-gray-700"> {{event().speakers}} </p>
+</div>
