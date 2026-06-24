@@ -14,4 +14,8 @@ export class BibliographyService {
   getPublications() {
     return this.http.get<Publication[]>('./data/publications.json');
   }
+
+  getOtherWork() {
+    return this.http.get<Publication[]>('./data/other-work.json')
+  }
 }

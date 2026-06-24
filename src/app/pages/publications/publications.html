@@ -7,30 +7,22 @@
     </div>
 
     <!-- List of publications on desktop, drop down menu on mobile -->
-    <div class="rounded-xl border border-gray-100 shadow-md bg-white p-6 md:p-12 divide-y divide-primary/50">
-        <h1 class="text-xl md:text-2xl lg:text-3xl font-extrabold text-primary mb-4"> Pubblicazioni e Abstract su temi
+    <div class="element-box divide-y divide-primary/50 mb-4">
+        <h1 class="mb-4"> Pubblicazioni e Abstract su temi
             relativi a Mindfulness e Meditazione </h1>
         <div class="flex flex-col gap-2 divide-y divide-primary/50 pt-4">
             @for(publication of publications(); track publication.id) {
-            <div class="mb-2">
-                <p class="gray-600 text-sm md:text-base"> {{publication.authors}} ({{publication.year}})</p>
-                <h2 class="semibold text-lg md:text-xl">
-                    @if (publication.url) {
-                    <a [href]="publication.url"
-                        class="text-primary hover:cursor-pointer hover:underline hover:text-secondary" target="_blank">
-                        {{publication.title}}
-                    </a>
-                    }
-                    @else {
-                    {{publication.title}}
-                    }
-                </h2>
-                <!-- Unnecessarily elegant solution that just wasted 10 minutes of my time just to avoid writing 3 @ifs-->
-                <p class="pb-2">
-                    {{ [publication.context, publication.publisher, publication.location].filter(val=>!!val).join(', ')
-                    }}
-                </p>
-            </div>
+            <app-publication-card [publication]="publication"></app-publication-card>
+            }
+        </div>
+    </div>
+
+    <!-- List of 'other works' -->
+    <div class="element-box divide-y divide-primary/50 mb-4">
+        <h1 class="mb-4">Altri lavori disponibili in rete su biologia, filosofia, buddhismo</h1>
+        <div class="flex flex-col gap-2 divide-y divide-primary/50">
+            @for(work of otherWork(); track work.id){
+            <app-publication-card [publication]="work"></app-publication-card>
             }
         </div>
     </div>
