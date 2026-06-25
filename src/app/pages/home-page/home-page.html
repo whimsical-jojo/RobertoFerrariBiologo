@@ -1,23 +1,22 @@
 <!-- On top: Books with the scrolling component-->
 <!-- On the left the pic with the first two paragraphs -->
-<!-- On the right a preview of the video interviews-->
+<!-- On the right a preview of one video and one audio, and two of the next scheduled events-->
 <div class="flex flex-col mb-12">
   <div class="mb-4">
     @if (books()) {
-    <app-book-carousel [books]="books()!"></app-book-carousel>
+      <app-book-carousel [books]="books()!"></app-book-carousel>
     }
   </div>
-  <div class="flex flex-col md:flex-row gap-4">
-    <div
-      class="w-full flex flex-col items-start gap-3 sm:w-1/2 element-box">
-      <!-- Screw it I wanted to re-use the biography, but I've got different texts anyway-->
-      <div class="divide-y divide-gray-300">
-        <h1 class="text-xl md:text-2xl lg:text-3xl font-extrabold text-primary mb-4">Biografia</h1>
-        <img src="./RFerrari.png" alt="Roberto Ferrari" class="w-full max-h-smmx-auto mb-6 rounded-lg shadow-xl
-            object-cover">
+  
+  <div class="flex flex-col md:flex-row gap-6 items-start">
+    
+    <div class="w-full md:w-1/2 flex flex-col items-start gap-3 element-box">
+      <div class="divide-y divide-gray-300 w-full">
+        <h2 class="mb-4 text-primary">Biografia</h2>
+        <img src="./RFerrari.png" alt="Roberto Ferrari" class="w-full mx-auto mb-6 rounded-lg shadow-xl object-cover">
       </div>
 
-      <p class="text-left md:text-justify">
+      <p class="text-left md:text-justify text-gray-700 leading-relaxed">
         Roberto Ferrari, biologo, ha svolto per trent’anni
         attività di ricerca nel campo degli insetti sociali
         e dell’etologia cognitiva presso l’Università
@@ -38,12 +37,43 @@
         (Bologna 2021).
       </p>
 
-      <button class="text-primary hover:underline hover:text-secondary cursor-pointer text-sm font-medium mt-1">
-        <a routerLink="/vita" routerLinkActive="active-link">
-          Biografia estesa
-        </a>
-      </button>
+      <a routerLink="/vita" class="text-primary hover:underline hover:text-secondary font-medium text-sm mt-2 block">
+        Biografia estesa &rarr;
+      </a>
     </div>
-    <app-media class="w-full sm:w-1/2 max-h-140 overflow-y-scroll"> </app-media>
+
+    <div class="w-full md:w-1/2 flex flex-col gap-6">
+      
+      <div class="element-box flex flex-col gap-4">
+        <div class="flex justify-between items-end border-b pb-2">
+          <h2 class="text-lg font-bold text-primary">Contenuti In Evidenza</h2>
+          <a routerLink="/media" class="text-primary hover:underline hover:text-secondary font-medium text-xs mb-0.5">
+            Vedi tutti &rarr;
+          </a>
+        </div>
+        <div class="grid grid-cols-1 gap-4">
+          @for (media of featuredMedia(); track media.id){
+            <app-media-card [media]="media"></app-media-card>
+          }
+        </div>
+      </div>
+
+      <div class="element-box flex flex-col gap-4">
+        <div class="flex justify-between items-end border-b pb-2">
+          <h2 class="text-lg font-bold text-primary">Prossimi Interventi</h2>
+          <a routerLink="/interventi" class="text-primary hover:underline hover:text-secondary font-medium text-xs mb-0.5">
+            Tutti gli interventi &rarr;
+          </a>
+        </div>
+        <div class="grid grid-cols-1 gap-4">
+          @for (event of featuredEvents(); track event.id) {
+            <app-event-card [event]="event"></app-event-card>
+          } @empty {
+            <p class="text-sm text-gray-500 italic">Nessun intervento in programma.</p>
+          }
+        </div>
+      </div>
+
+    </div>
   </div>
 </div>

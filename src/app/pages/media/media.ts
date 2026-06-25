@@ -1,5 +1,5 @@
 import { Component, computed, inject, signal } from '@angular/core';
-import { VideoService } from '../../services/media-service';
+import { MediaService } from '../../services/media-service';
 import { map } from 'rxjs/internal/operators/map';
 import { toSignal } from '@angular/core/rxjs-interop';
 import { DomSanitizer } from '@angular/platform-browser';
@@ -13,8 +13,7 @@ import { MediaCard } from "../../components/media-card/media-card";
 })
 export class MediaPage {
   //Yes it's practically identical to the MKay one lol
-  mediaService = inject(VideoService);
-  sanitizer = inject(DomSanitizer);
+  mediaService = inject(MediaService);
 
   //Filter for deciding which content to show
   activeFilter = signal<'all' | 'other' | 'reviews-and-interviews' | 'book-presentation'>('all');
@@ -28,18 +27,7 @@ export class MediaPage {
   ] as const;
 
   //Base media signal with sanitized urls for embedded yt videos
-  readonly allMedia = toSignal(
-    this.mediaService.getMedia().pipe(
-      map(medias =>
-        medias.map(media => ({
-          ...media,
-          // Only sanitize iframe URLs for videos; keep standard strings for downloadable elements/links
-          url: media.format === 'video' ? this.sanitizeUrl(media.url as string) : media.url
-        }))
-      )
-    ),
-    { initialValue: [] }
-  );
+  readonly allMedia = toSignal(this.mediaService.getMedia(), {initialValue : []});
 
   //The filtered and displayed media
   filteredMedia = computed(() => {
@@ -54,9 +42,5 @@ export class MediaPage {
 
   setFilter(filter: 'all' | 'other' | 'reviews-and-interviews' | 'book-presentation') {
     this.activeFilter.set(filter);
-  }
-
-  sanitizeUrl(url: string) {
-    return this.sanitizer.bypassSecurityTrustResourceUrl(url);
   }
 }
