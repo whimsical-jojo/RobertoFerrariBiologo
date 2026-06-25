@@ -1,24 +1,29 @@
 [
   {
-    "id" : 1,
+    "id": 1,
     "startDate": "2026-08-26",
     "endDate": "2026-08-30",
     "hostContext": "Summer School 2026 della Scuola Superiore di Filosofia Orientale e Comparativa",
     "location": "Pesaro",
     "title": "Sguardi di vita. L’esperienza umana e animale tra filosofia, etologia e antropologia",
-    "speakers": ["R. Ferrari", "D. Torri", "M. Bergonzi"],
-    "imageUrl": ""
+    "speakers": [
+      "R. Ferrari",
+      "D. Torri",
+      "M. Bergonzi"
+    ],
+    "imageUrl": "",
+    "link": "https://www.filosofiaorientalecomparativa.it/summer-school/"
   },
   {
-    "id" : 2,
+    "id": 2,
     "startDate": "2026-10-14",
     "endDate": "2026-10-18",
-    "hostContext": "Festival Torino Spiritualità 2026",
+    "title": "Festival Torino Spiritualità 2026",
     "location": "Torino",
     "imageUrl": ""
   },
   {
-    "id" : 3,
+    "id": 3,
     "startDate": "2026-04-15",
     "endDate": "2026-04-19",
     "hostContext": "Festa Scienza Filosofia di Foligno",
@@ -26,34 +31,41 @@
     "imageUrl": ""
   },
   {
-    "id" : 4,
+    "id": 4,
     "startDate": "2025-10-02",
     "endDate": "2025-10-05",
     "hostContext": "Pianeta Terra Festival 2025: Sistemi Instabili",
     "location": "Lucca",
     "title": "La nostra relazione con gli animali",
-    "speakers": ["R.Ferrari", "S.Pollo"],
+    "speakers": [
+      "R.Ferrari",
+      "S.Pollo"
+    ],
     "imageUrl": ""
   },
   {
-    "id" : 5,
+    "id": 5,
     "startDate": "2024-07-31",
     "endDate": "2024-08-04",
     "hostContext": "Summer School 2024 della Scuola Superiore di Filosofia Orientale e Comparativa",
     "location": "Pesaro",
     "title": "La scienza della mente tra Oriente e Occidente",
-    "speakers": ["M.Bergonzi", "R.Ferrari", "G.Lussana"],
+    "speakers": [
+      "M.Bergonzi",
+      "R.Ferrari",
+      "G.Lussana"
+    ],
     "imageUrl": ""
   },
   {
-    "id" : 6,
+    "id": 6,
     "startDate": "2023-11-13",
     "hostContext": "Università La Sapienza di Roma, Dipartimento di Psicologia dei processi di sviluppo e socializzazione",
     "title": "Modelli cognitivi e attenzione: un viaggio nel mondo animale",
     "imageUrl": ""
   },
   {
-    "id" : 7,
+    "id": 7,
     "startDate": "2023-12-04",
     "endDate": "2023-12-05",
     "hostContext": "Simposio Meditazione, Antropologia e Cognizione, Museo Civico di Zoologia di Roma",
@@ -61,7 +73,7 @@
     "imageUrl": ""
   },
   {
-    "id" : 8,
+    "id": 8,
     "startDate": "2023-10-06",
     "endDate": "2023-10-07",
     "hostContext": "Convegno 6 Oncologie, XXI incontro",
@@ -70,7 +82,7 @@
     "imageUrl": ""
   },
   {
-    "id" : 9,
+    "id": 9,
     "startDate": "2022-09-30",
     "endDate": "2022-10-01",
     "hostContext": "Convegno Cortina Mindfulness",
@@ -79,7 +91,7 @@
     "imageUrl": ""
   },
   {
-    "id" : 10,
+    "id": 10,
     "startDate": "2023-08-14",
     "endDate": "2023-08-20",
     "hostContext": "Santiago del Cile, Seminario Formazione Insegnanti Yoga Asia Santiago",
@@ -87,366 +99,492 @@
     "imageUrl": ""
   },
   {
-    "id" : 11,
+    "id": 11,
     "startDate": "2022-04-09",
     "hostContext": "Roma Mindfulness Festival",
     "title": "Biologia dell’inter-essere. Amare il caos delle relazioni",
     "imageUrl": ""
   },
   {
-    "id" : 12,
+    "id": 12,
     "startDate": "2020-05-01",
     "endDate": "2020-05-31",
     "hostContext": "Biblioteche del Comune di Modena",
     "title": "Respirare il presente. Introduzione alla Mindfulness",
-    "speakers": ["R. Ferrari"],
+    "speakers": [
+      "R. Ferrari"
+    ],
     "imageUrl": ""
   },
   {
-    "id" : 13,
+    "id": 13,
     "startDate": "2020-02-21",
     "hostContext": "INSERM e Institut de Recherche, de Pratique et d’Enseignement en Méditation",
     "location": "Lyon",
     "title": "Clinical application of Mindfulness Based Interventions in Italian hospitals. Beyond hope and despair",
-    "speakers": ["R. Ferrari"],
+    "speakers": [
+      "R. Ferrari"
+    ],
     "imageUrl": ""
   },
   {
-    "id" : 14,
+    "id": 14,
     "startDate": "2019-10-25",
     "hostContext": "Convegno “L’intervento psicologico nel trattamento riabilitativo in Unità spinale”",
     "location": "Milano Ospedale Niguarda",
     "title": "Il programma MBSR in Unità Spinale. Intervento possibile?",
-    "speakers": ["R. Ferrari", "F.Barile", "F. Giommi", "A. Marconi", "S.Poletti"],
+    "speakers": [
+      "R. Ferrari",
+      "F.Barile",
+      "F. Giommi",
+      "A. Marconi",
+      "S.Poletti"
+    ],
     "imageUrl": ""
   },
   {
-    "id" : 15,
+    "id": 15,
     "startDate": "2019-06-22",
     "endDate": "2019-06-29",
     "hostContext": "International Cortona Week in Todi",
     "title": "Phenomenology East and West – a dialogue",
-    "speakers": ["M. Bergonzi", "R. Ferrari"],
+    "speakers": [
+      "M. Bergonzi",
+      "R. Ferrari"
+    ],
     "imageUrl": ""
   },
   {
-    "id" : 16,
+    "id": 16,
     "startDate": "2019-07-13",
     "endDate": "2019-07-20",
     "hostContext": "Asia Vacances de L’Esprit",
     "location": "Anterselva",
     "title": "Galileo in Tibet: La Coscienza",
-    "speakers": ["Costantini M.", "Ferri F.", "Bertossa F.", "Pendenza P.", "Ferrari R."],
+    "speakers": [
+      "Costantini M.",
+      "Ferri F.",
+      "Bertossa F.",
+      "Pendenza P.",
+      "Ferrari R."
+    ],
     "imageUrl": ""
   },
   {
-    "id" : 17,
+    "id": 17,
     "startDate": "2018-10-25",
     "endDate": "2018-10-27",
     "hostContext": "Convegno Nazionale CNOPUS",
     "location": "Roma",
     "title": "Mindfulness per Operatori delle Unità Spinali",
-    "speakers": ["Ferrari R."],
+    "speakers": [
+      "Ferrari R."
+    ],
     "imageUrl": ""
   },
   {
-    "id" : 18,
+    "id": 18,
     "startDate": "2018-11-23",
     "hostContext": "Convegno “Mindfulness: Prospettive di Ricerca Clinica e Cura di sé”",
     "location": "Modena",
     "title": "Coltivare la Mindfulness tra i Professionisti della salute: Studi Pilota",
-    "speakers": ["R. Ferrari"],
+    "speakers": [
+      "R. Ferrari"
+    ],
     "imageUrl": ""
   },
   {
-    "id" : 19,
+    "id": 19,
     "startDate": "2018-07-14",
     "endDate": "2018-07-21",
     "hostContext": "Asia Vacances de L’Esprit",
     "location": "Anterselva",
     "title": "Galileo in Tibet",
-    "speakers": ["Bertossa F.", "Pendenza P.", "Ferrari R."],
+    "speakers": [
+      "Bertossa F.",
+      "Pendenza P.",
+      "Ferrari R."
+    ],
     "imageUrl": ""
   },
   {
-    "id" : 20,
+    "id": 20,
     "startDate": "2017-11-19",
     "hostContext": "Advanced Algology Research, Masterclass Medicina del Dolore 2017-18, “Il dolore cronico, dalla Neuromatrix alla gestione clinica”",
     "location": "Ferrara",
     "title": "Mindfulness: tra neuroscienze, psicologia e filosofia orientale",
-    "speakers": ["R.Ferrari", "S.Poletti"],
+    "speakers": [
+      "R.Ferrari",
+      "S.Poletti"
+    ],
     "imageUrl": ""
   },
   {
-    "id" : 21,
+    "id": 21,
     "startDate": "2017-11-11",
     "hostContext": "Nous, Scuola di Specializzazione in Psicoterapia Cognitivo-Costruttivista",
     "location": "Milano",
     "title": "Seminario su Francisco J. Varela in rapporto a Vittorio Guidano",
-    "speakers": ["Ferrari R."],
+    "speakers": [
+      "Ferrari R."
+    ],
     "imageUrl": ""
   },
   {
-    "id" : 22,
+    "id": 22,
     "startDate": "2017-07-15",
     "endDate": "2017-07-22",
     "hostContext": "Asia Vacances de L’Esprit",
     "location": "Anterselva",
     "title": "Galileo in Tibet",
-    "speakers": ["Bertossa F.", "Pendenza P.", "Ferrari R."],
+    "speakers": [
+      "Bertossa F.",
+      "Pendenza P.",
+      "Ferrari R."
+    ],
     "imageUrl": ""
   },
   {
-    "id" : 23,
+    "id": 23,
     "startDate": "2017-03-05",
     "hostContext": "Asia Vacances de L’Esprit",
     "location": "Bologna",
     "title": "Darwin, l’incanto tragico della vita",
-    "speakers": ["Ferrari R."],
+    "speakers": [
+      "Ferrari R."
+    ],
     "imageUrl": ""
   },
   {
-    "id" : 24,
+    "id": 24,
     "startDate": "2017-02-11",
     "hostContext": "Associazione Asia Modena, Rassegna “A cosa mi educherai?”",
     "location": "Modena",
     "title": "Mindfulness al Liceo, una ricerca sul campo",
-    "speakers": ["R. Ferrari", "S. Poletti", "A. Ielli"],
+    "speakers": [
+      "R. Ferrari",
+      "S. Poletti",
+      "A. Ielli"
+    ],
     "imageUrl": ""
   },
   {
-    "id" : 25,
+    "id": 25,
     "startDate": "2016-07-02",
     "hostContext": "Nous, Scuola di Specializzazione in Psicoterapia Cognitivo-Costruttivista",
     "location": "Milano",
     "title": "La ricerca scientifica di Francisco J. Varela, le teorie del costruttivismo in biologia e la loro relazione con lo studio della mente",
-    "speakers": ["Ferrari R."],
+    "speakers": [
+      "Ferrari R."
+    ],
     "imageUrl": ""
   },
   {
-    "id" : 26,
+    "id": 26,
     "startDate": "2016-05-11",
     "endDate": "2016-05-15",
     "hostContext": "2nd International Conference on Mindfulness",
     "location": "Roma Università La Sapienza",
     "title": "Animal experience and contemplative practices / Three compared MBSR application in hospital clinic / MBSR Program with Psychiatrich health professionals: a pre-post controlled study",
-    "speakers": ["R. Ferrari", "M.P. Ricchieri", "S. Poletti"],
+    "speakers": [
+      "R. Ferrari",
+      "M.P. Ricchieri",
+      "S. Poletti"
+    ],
     "imageUrl": ""
   },
   {
-    "id" : 27,
+    "id": 27,
     "startDate": "2016-04-03",
     "hostContext": "Asia Vacances de L’Esprit",
     "location": "Bologna",
     "title": "Habitat animali. Azione e produzione di mondi",
-    "speakers": ["Ferrari R."],
+    "speakers": [
+      "Ferrari R."
+    ],
     "imageUrl": ""
   },
   {
-    "id" : 28,
+    "id": 28,
     "startDate": "2015-04-19",
     "hostContext": "Asia Vacances de L’Esprit",
     "location": "Bologna",
     "title": "Cosa è la vita? Tra machine biochimiche ed esseri senzienti",
-    "speakers": ["Ferrari R."],
+    "speakers": [
+      "Ferrari R."
+    ],
     "imageUrl": ""
   },
   {
-    "id" : 29,
+    "id": 29,
     "startDate": "2015-10-22",
     "endDate": "2015-10-24",
     "hostContext": "Convegno “Mindfulness, educazione e cura”",
     "location": "Borgo Val Sugana, Trento",
     "title": "Perché la mindfuness funziona. Un metodo una pratica una cura",
-    "speakers": ["R. Ferrari", "S. Poletti"],
+    "speakers": [
+      "R. Ferrari",
+      "S. Poletti"
+    ],
     "imageUrl": ""
   },
   {
-    "id" : 30,
+    "id": 30,
     "startDate": "2015-11-20",
     "hostContext": "Convegno “Mindfulness. Il cielo della mente: la meditazione nella scienza, nella cura, nella ricerca”",
     "location": "Modena",
     "title": "Studi clinici di mindfulness in ospedale",
-    "speakers": ["R. Ferrari"],
+    "speakers": [
+      "R. Ferrari"
+    ],
     "imageUrl": ""
   },
   {
-    "id" : 31,
+    "id": 31,
     "startDate": "2014-04-09",
     "hostContext": "Università di Padova, Dipartimento di Psicologia",
     "title": "Nuovi paradigmi della conoscenza tra fisica e biologia. Un seminario dialogico",
-    "speakers": ["R. Ferrari", "P. Pendenza"],
+    "speakers": [
+      "R. Ferrari",
+      "P. Pendenza"
+    ],
     "imageUrl": ""
   },
   {
-    "id" : 32,
+    "id": 32,
     "startDate": "2014-03-18",
     "endDate": "2014-03-21",
     "hostContext": "Convegno “Mindfullness-mania”",
     "location": "Padova-Milano",
     "title": "Inquieta-mente, tra memoria e profezia. Perchè la mindfulness funziona e perchè può essere anche un rischio",
-    "speakers": ["R. Ferrari", "G. Pagnoni"],
+    "speakers": [
+      "R. Ferrari",
+      "G. Pagnoni"
+    ],
     "imageUrl": ""
   },
   {
-    "id" : 33,
+    "id": 33,
     "startDate": "2014-03-01",
     "hostContext": "Convegno per la Giornata delle Malattie Rare, Università di Modena e Reggio E.",
     "title": "Meditare in ospedale. Impatto di un programma di Mindfulness MBSR sulla qualità della vita di pazienti con Fibrosi Polmonare",
-    "speakers": ["R. Ferrari", "M.P. Ricchieri", "S. Poletti"],
+    "speakers": [
+      "R. Ferrari",
+      "M.P. Ricchieri",
+      "S. Poletti"
+    ],
     "imageUrl": ""
   },
   {
-    "id" : 34,
+    "id": 34,
     "startDate": "2013-05-25",
     "hostContext": "École Normale Supérieure, Paris - Groupe de Travail des Archives Husserl de Philosophie et Phénoménologie de l’Animalité",
     "title": "The animal experience of contact. Zooohenomenology of the present moment",
-    "speakers": ["R. Ferrari"],
+    "speakers": [
+      "R. Ferrari"
+    ],
     "link": "",
     "imageUrl": ""
   },
   {
-    "id" : 35,
+    "id": 35,
     "startDate": "2012-07-10",
     "endDate": "2012-07-12",
     "hostContext": "Università di Padova - Convegno “Neuroriduzioni: possibilità e limiti”",
     "title": "L’esperienza animale. Zoofenomenologia e addestramento meditativo",
-    "speakers": ["R. Ferrari"],
+    "speakers": [
+      "R. Ferrari"
+    ],
     "imageUrl": ""
   },
   {
-    "id" : 36,
+    "id": 36,
     "startDate": "2011-12-13",
     "endDate": "2011-12-14",
     "hostContext": "Università A.Hurtado di Santiago del Cile - Convegno internazionale con F. Bertossa e M. Bitbol A las raíces de la experiencia consciente; entre fenomenología, scienza e meditación",
     "title": "Il problema della coscienza alla luce della vita e dell’opera di Francisco Varela",
-    "speakers": ["R. Ferrari"],
+    "speakers": [
+      "R. Ferrari"
+    ],
     "link": "",
     "imageUrl": ""
   },
   {
-    "id" : 37,
+    "id": 37,
     "startDate": "2011-03-16",
     "hostContext": "Università di Bologna Aula Magna via S. Filippo Re",
     "title": "Neuro-mania. Un dibattito sui limiti della neuroriduzione. Intervento: Neuroimmagini ed esperienza vivente in atto",
-    "speakers": ["R. Ferrari"],
+    "speakers": [
+      "R. Ferrari"
+    ],
     "imageUrl": ""
   },
   {
-    "id" : 38,
+    "id": 38,
     "startDate": "2010-06-11",
     "hostContext": "Biblioteca Delfini, Ciclo “Biodiversità vicina e lontana”",
     "title": "Biodiversità e percezione del limite",
-    "speakers": ["Ferrari R."],
+    "speakers": [
+      "Ferrari R."
+    ],
     "imageUrl": ""
   },
   {
-    "id" : 39,
+    "id": 39,
     "startDate": "2010-04-06",
     "hostContext": "CREA/CNRS Ecole Polytecnique de Paris, Colloques “Ecology in the first person”",
     "title": "Co-interdependency in Oceanic Islands and lived experience of finiteness",
-    "speakers": ["Ferrari R."],
+    "speakers": [
+      "Ferrari R."
+    ],
     "link": "",
     "imageUrl": ""
   },
   {
-    "id" : 40,
+    "id": 40,
     "startDate": "2009-12-05",
     "endDate": "2009-12-08",
     "hostContext": "Asia Vacances de L’Esprit",
     "location": "Riolo Terme",
     "title": "Darwinismo, biologia teorica ed esperienza. Qual è la natura del vivente?",
-    "speakers": ["Ferrari R."],
+    "speakers": [
+      "Ferrari R."
+    ],
     "imageUrl": ""
   },
   {
-    "id" : 41,
+    "id": 41,
     "startDate": "2009-05-22",
     "hostContext": "Università di Modena-ReggioEmilia, Dip. Biologia Animale, Corso “Biologia molecolare del benessere”",
     "title": "Meditazione e benessere: scopo o effectto collaterale?",
-    "speakers": ["Ferrari R."],
+    "speakers": [
+      "Ferrari R."
+    ],
     "imageUrl": ""
   },
   {
-    "id" : 42,
+    "id": 42,
     "startDate": "2009-02-02",
     "hostContext": "Università di Urbino ISIA, Convegno “Il Progetto Sostenibile”",
     "title": "L’isola sostenibile. Quale progetto nell’epoca della crisi ecologica?",
-    "speakers": ["Ferrari R."],
+    "speakers": [
+      "Ferrari R."
+    ],
     "imageUrl": ""
   },
   {
-    "id" : 43,
+    "id": 43,
     "startDate": "2008-06-13",
     "hostContext": "CESIPc, Scuola di terapia cognitiva ad orientamento costruttivista, Firenze - Convegno Costruttivismo e Scienze Umane: la dimensione culturale, sociale e spirituale",
     "title": "La dimensione spirituale. Costruzione e decostruzione del senso tra co-determinazione e lampi di vacuità",
-    "speakers": ["Ferrari R."],
+    "speakers": [
+      "Ferrari R."
+    ],
     "imageUrl": ""
   },
   {
-    "id" : 44,
+    "id": 44,
     "startDate": "2008-03-29",
     "hostContext": "Comune di Merano (Bz)",
     "title": "Al centro della mente. Scienza e Filosofia studiano la coscienza",
-    "speakers": ["Ferrari R.", "Teneggi C."],
+    "speakers": [
+      "Ferrari R.",
+      "Teneggi C."
+    ],
     "imageUrl": ""
   },
   {
-    "id" : 45,
+    "id": 45,
     "startDate": "2008-02-19",
     "hostContext": "Università di Bologna, Facoltà di Medicina, Corso “La sperimentazione animale e la scienza medica”",
     "title": "Animali come esseri senzienti. Filosofia e biologia del sentire",
-    "speakers": ["Ferrari R."],
+    "speakers": [
+      "Ferrari R."
+    ],
     "imageUrl": ""
   },
   {
-    "id" : 46,
+    "id": 46,
     "startDate": "2007-03-13",
     "hostContext": "Paris Ecole Polytechnique CREA/CNRS, Seminario Consciousness Studies",
-    "speakers": ["Bertossa F.", "Benfenati B.", "Teneggi C.", "Ferrari R.", "Ferri F."],
+    "speakers": [
+      "Bertossa F.",
+      "Benfenati B.",
+      "Teneggi C.",
+      "Ferrari R.",
+      "Ferri F."
+    ],
     "imageUrl": ""
   },
   {
-    "id" : 47,
+    "id": 47,
     "startDate": "2006-10-04",
     "hostContext": "Università degli Studi di Milano - Convegno Trascendentalismo e naturalizzazione. Sulle orme della Neurofenomenologia di Francisco Varela",
     "title": "Meditazione: l’autoreferenza vissuta",
-    "speakers": ["Bertossa F.", "Ferrari R."],
+    "speakers": [
+      "Bertossa F.",
+      "Ferrari R."
+    ],
     "imageUrl": ""
   },
   {
-    "id" : 48,
+    "id": 48,
     "startDate": "2006-06-24",
     "endDate": "2006-07-01",
     "hostContext": "Loiano, Palazzo Loup - International Workshop “Primordial Questions about Consciousness”",
     "title": "Point zero. A seat for conscious experience",
-    "speakers": ["Bertossa F.", "Besa M.", "Ferrari R."],
+    "speakers": [
+      "Bertossa F.",
+      "Besa M.",
+      "Ferrari R."
+    ],
     "imageUrl": ""
   },
   {
-    "id" : 49,
+    "id": 49,
     "startDate": "2005-01-01",
     "endDate": "2008-12-31",
     "hostContext": "Università di Urbino ISIA, Anni 2005-2006-2007-2008",
     "title": "Fenomenologia del Progetto. Il Progetto Cosciente",
-    "speakers": ["Chia B.", "Teneggi C.", "Ferrari R.", "Valentini I."],
+    "speakers": [
+      "Chia B.",
+      "Teneggi C.",
+      "Ferrari R.",
+      "Valentini I."
+    ],
     "imageUrl": ""
   },
   {
-    "id" : 50,
+    "id": 50,
     "startDate": "2005-05-27",
     "hostContext": "Università degli studi di Milano, seminario ASTUFILO Neuroscienze e Fenomenologia",
     "title": "Un approccio buddista alle Scienze Cognitive. Filosofia sperimentale nell’immobilità del corpo",
-    "speakers": ["Ferrari R."],
+    "speakers": [
+      "Ferrari R."
+    ],
     "imageUrl": ""
   },
   {
-    "id" : 51,
+    "id": 51,
     "startDate": "2002-03-02",
     "endDate": "2002-03-03",
     "hostContext": "Comune di Modena, Biblioteca A.Delfini, Ciclo conferenze Scienza e Meditazione",
     "title": "Cervello ed Autocoscienza",
-    "speakers": ["Ferrari R."],
+    "speakers": [
+      "Ferrari R."
+    ],
+    "imageUrl": ""
+  },
+  {
+    "id": 52,
+    "startDate": "2026-07-08T18:30:00",
+    "hostContext": "Presentazione di \"Meditare con gli animali\" (Laterza, 2025)",
+    "location": "Libreria Panisperna, Via Panisperna 220, Rione Monti, Roma",
+    "title": "Presentazione di \"Meditare con gli animali\"",
+    "speakers": [
+      "Roberto Ferrari",
+      "Isabella Schiavone (Giornalista RAI e Istruttore Mindfulness)"
+    ],
     "imageUrl": ""
   }
 ]
