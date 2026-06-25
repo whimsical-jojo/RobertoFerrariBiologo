@@ -1,6 +1,6 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { Videos } from './videos';
+import { Videos } from './media';
 
 describe('Videos', () => {
   let component: Videos;

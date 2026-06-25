@@ -1,4 +1,5 @@
 import { Component, input, signal } from '@angular/core';
+import { Book } from '../../entities';
 
 
 @Component({

@@ -1,5 +1,6 @@
 import { Component, computed, input, signal, viewChildren } from '@angular/core';
 import { BookCard } from "../book-card/book-card";
+import { Book } from '../../entities';
 
 @Component({
   selector: 'app-book-carousel',

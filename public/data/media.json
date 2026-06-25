@@ -1,0 +1,135 @@
+[
+  {
+    "id": 1,
+    "title": "Meditare con gli animali: Università di Bologna (con Vito Mancuso)",
+    "url": "https://www.youtube.com/embed/pegd09fCaGE",
+    "category": "book-presentations",
+    "format": "video"
+  },
+  {
+    "id": 2,
+    "title": "Meditare con gli animali: Associazione Asia Modena",
+    "url": "https://www.youtube.com/embed/ZfCITvOc7JY",
+    "category": "book-presentations",
+    "format": "video"
+  },
+  {
+    "id": 3,
+    "title": "Meditare con gli animali: Festival Scienza Filosofia di Foligno",
+    "url": "https://www.youtube.com/embed/-eBovDcNHqE",
+    "category": "book-presentations",
+    "format": "video"
+  },
+  {
+    "id": 4,
+    "title": "Meditare con gli animali: Teleambiente",
+    "url": "https://www.youtube.com/embed/pegd09fCaGE",
+    "category": "book-presentations",
+    "format": "video"
+  },
+  {
+    "id": 5,
+    "title": "Podcast di Libri \"Il posto delle parole\"",
+    "url": "https://www.youtube.com/embed/qZBi79PWdlU",
+    "category": "book-presentations",
+    "format": "video"
+  },
+  {
+    "id": 6,
+    "title": "Conferenza: Volgersi verso la sofferenza. La meditazione in ospedale e non.",
+    "url": "https://www.youtube.com/embed/ISRKi8TYwf8",
+    "category": "other-videos-audio",
+    "format": "video"
+  },
+  {
+    "id": 7,
+    "title": "Presentazione \"Un respiro alla volta. Storie di mindfulness in oncologia e tra gli animali\" (con Vito Mancuso)",
+    "url": "https://www.youtube.com/embed/9J-2edkZyOA",
+    "category": "other-videos-audio",
+    "format": "video"
+  },
+  {
+    "id": 8,
+    "title": "Conferenza: Come gli Animali percepiscono Tempo, Spazio, Identità e Linguaggio?",
+    "url": "https://www.youtube.com/embed/UB21nIttzr4",
+    "category": "other-videos-audio",
+    "format": "video"
+  },
+  {
+    "id": 9,
+    "title": "Conferenza: Eco-Mindfulness: accogliere il caos delle relazioni - Convegno Cortina",
+    "url": "https://www.youtube.com/embed/IkzI8n7sgWI",
+    "category": "other-videos-audio",
+    "format": "video"
+  },
+  {
+    "id": 10,
+    "title": "Per Being Sapiens - Intervista \"Sul mistero della vita\" (con Giannandrea Giacoma)",
+    "url": "https://www.youtube.com/embed/yzVyesu1Cx0",
+    "category": "other-videos-audio",
+    "format": "video"
+  },
+  {
+    "id": 11,
+    "title": "Domande sulla Mindfulness in Ospedale",
+    "url": "https://www.youtube.com/embed/rSNN5BWFIQY",
+    "category": "other-videos-audio",
+    "format": "video"
+  },
+  {
+    "id": 12,
+    "title": "La Coscienza degli Animali non Umani (con Daniela Grenzi)",
+    "url": "https://www.youtube.com/embed/LLsNWJc0nSg",
+    "category": "other-videos-audio",
+    "format": "video"
+  },
+  {
+    "id": 13,
+    "title": "A Rai Radio3 - Uomini e Profeti (Meditare con gli animali)",
+    "url": "https://www.raiplaysound.it/audio/2025/12/Uomini-e-Profeti-del-20122025-ac0e7f82-b93c-4240-aa07-dd373216396a.html",
+    "category": "reviews-and-interviews",
+    "format": "audio"
+  },
+  {
+    "id": 14,
+    "title": "Su Repubblica (Recensione \"Meditare con gli animali\")",
+    "url": "assets/pdf/recensione-repubblica.pdf",
+    "category": "reviews-and-interviews",
+    "format": "pdf"
+  },
+  {
+    "id": 15,
+    "title": "Sul Fatto Quotidiano (Intervista \"Meditare con gli animali\")",
+    "url": "https://www.ilfattoquotidiano.it/2025/09/02/meditare-animali-mindfulness-ferrari-oggi/8110867/",
+    "category": "reviews-and-interviews",
+    "format": "article"
+  },
+  {
+    "id": 16,
+    "title": "Su Braccia Rubate (Recensione \"Meditare con gli animali\")",
+    "url": "https://bracciarubate.substack.com/p/meditare-con-gli-animali",
+    "category": "reviews-and-interviews",
+    "format": "article"
+  },
+  {
+    "id": 17,
+    "title": "Rai Radio3 - Uomini e Profeti - Pensare oltre l'umano",
+    "url": "https://www.raiplaysound.it/audio/2026/02/Uomini-e-Profeti-del-15022026-1a28a928-1cfb-45bc-8b15-8956fe671905.html",
+    "category": "other-videos-audio",
+    "format": "audio"
+  },
+  {
+    "id": 18,
+    "title": "La relazione con gli animali - Festival Pianeta Terra Festival - Lucca (con Simone Pollo)",
+    "url": "https://www.pianetaterrafestival.it/blog/2025/09/25/5-ott-ferrari-pollo/",
+    "category": "other-videos-audio",
+    "format": "article"
+  },
+  {
+    "id": 19,
+    "title": "Recensione di \"Un respiro alla volta\", da un detenuto",
+    "url": "https://asiamodena.it/2022/recensione-di-un-respiro-alla-volta-di-roberto-ferrari/",
+    "category": "other-videos-audio",
+    "format": "article"
+  }
+]

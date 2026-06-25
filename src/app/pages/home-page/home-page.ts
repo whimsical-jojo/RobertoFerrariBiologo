@@ -3,13 +3,13 @@ import { toSignal } from '@angular/core/rxjs-interop';
 import { BookCarousel } from "../../components/book-carousel/book-carousel";
 import { Vita } from "../vita/vita";
 import { RouterLink } from '@angular/router';
-import { Videos } from "../videos/videos";
+import { MediaPage } from "../media/media";
 import { BibliographyService } from '../../services/bibliography-service';
 
 
 @Component({
   selector: 'app-home-page',
-  imports: [BookCarousel, RouterLink, Videos],
+  imports: [BookCarousel, RouterLink, MediaPage],
   templateUrl: './home-page.html',
   styleUrl: './home-page.css',
 })

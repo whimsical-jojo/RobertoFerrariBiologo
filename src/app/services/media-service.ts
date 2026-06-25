@@ -1,5 +1,6 @@
 import { HttpClient } from '@angular/common/http';
 import { inject, Injectable } from '@angular/core';
+import { Media } from '../entities';
 
 @Injectable({
   providedIn: 'root',
@@ -7,7 +8,7 @@ import { inject, Injectable } from '@angular/core';
 export class VideoService {
   http = inject(HttpClient);
 
-  getVideos() {
-    return this.http.get<Video[]>('./data/videos.json');
+  getMedia() {
+    return this.http.get<Media[]>('./data/media.json');
   }
 }

@@ -1,4 +1,6 @@
-interface Book {
+import { SafeResourceUrl } from "@angular/platform-browser";
+
+export interface Book {
     id: number;
     title: string;
     subtitle?: string;
@@ -9,13 +11,15 @@ interface Book {
     linkUrl: string;
 }
 
-interface Video {
+export interface Media {
     id: number;
     title: string;
-    url: string;
+    url: string | SafeResourceUrl;
+    category:string;
+    format: 'video' | 'audio' | 'pdf' | 'article';
 }
 
-interface Publication {
+export interface Publication {
     id: number;
     year: number;
     title: string;
@@ -28,7 +32,7 @@ interface Publication {
 }
 
 //Hmm maybe calling this "Event" wasn't the best choice given Events in the browser and ugh who cares
-interface Event {
+export interface ScheduledEvent {
     id: number;
     startDate: string;
     endDate?: string;

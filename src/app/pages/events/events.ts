@@ -2,6 +2,7 @@ import { Component, computed, inject } from '@angular/core';
 import { EventService } from '../../services/event-service';
 import { toSignal } from '@angular/core/rxjs-interop';
 import { EventCard } from "../../components/event-card/event-card";
+import { ScheduledEvent } from "../../entities"
 
 @Component({
   selector: 'app-events',

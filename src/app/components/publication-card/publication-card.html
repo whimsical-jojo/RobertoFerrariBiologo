@@ -1,6 +1,6 @@
 <div class="mb-2 py-2">
     <p class="gray-600 text-sm md:text-base"> {{publication().authors}} ({{publication().year}})</p>
-    <h2 class="semibold text-lg md:text-xl">
+    <h2>
         @if (publication().url) {
         <a [href]="publication().url" class="text-primary hover:cursor-pointer hover:underline hover:text-secondary"
             target="_blank">

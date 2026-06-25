@@ -1,6 +1,7 @@
 import { DatePipe, registerLocaleData } from '@angular/common';
 import { Component, input } from '@angular/core';
 import localeIt from '@angular/common/locales/it';
+import { ScheduledEvent } from '../../entities';
 
 registerLocaleData(localeIt, 'it');
 
@@ -11,5 +12,5 @@ registerLocaleData(localeIt, 'it');
   styleUrl: './event-card.css',
 })
 export class EventCard {
-  event = input.required<Event>();
+  event = input.required<ScheduledEvent>();
 }
