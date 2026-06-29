@@ -7,5 +7,4 @@ import { Component, input } from '@angular/core';
   styleUrl: './vita.css',
 })
 export class Vita {
-  isPreview = input<boolean>(false);
 }

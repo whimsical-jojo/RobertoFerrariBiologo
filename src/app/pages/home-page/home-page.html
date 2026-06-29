@@ -4,17 +4,23 @@
 <div class="flex flex-col mb-12">
   <div class="mb-4">
     @if (books()) {
-      <app-book-carousel [books]="books()!"></app-book-carousel>
+    <app-book-carousel [books]="books()!"></app-book-carousel>
     }
   </div>
-  
-  <div class="flex flex-col md:flex-row gap-6 items-start">
-    
-    <div class="w-full md:w-1/2 flex flex-col items-start gap-3 element-box">
-      <div class="divide-y divide-gray-300 w-full">
-        <h2 class="mb-4 text-primary">Biografia</h2>
-        <img src="./RFerrari.png" alt="Roberto Ferrari" class="w-full mx-auto mb-6 rounded-lg shadow-xl object-cover">
+
+  <div class="flex flex-col md:flex-row gap-4 items-stretch justify-between">
+
+    <!--BIO-->
+    <div class="w-full md:w-1/2 flex flex-col element-box">
+
+      <div class="flex justify-between items-end border-b border-gray-300 pb-2 mb-2">
+        <h2>Biografia</h2>
+        <a routerLink="/vita" class="text-primary hover:underline hover:text-secondary font-medium text-sm">
+          Biografia estesa &rarr;
+        </a>
       </div>
+
+      <img src="./RFerrari.png" alt="Roberto Ferrari" class="w-full mx-auto mb-6 rounded-lg shadow-xl object-cover">
 
       <p class="text-left md:text-justify text-gray-700 leading-relaxed">
         Roberto Ferrari, biologo, ha svolto per trent’anni
@@ -37,43 +43,45 @@
         (Bologna 2021).
       </p>
 
-      <a routerLink="/vita" class="text-primary hover:underline hover:text-secondary font-medium text-sm mt-2 block">
-        Biografia estesa &rarr;
-      </a>
+      <!-- Little fox drawing -->
+      <img src="./fox.jpg" alt="Fox drawing" class="w-3/4 mx-auto rounded-lg opacity-90 select-none">
     </div>
 
-    <div class="w-full md:w-1/2 flex flex-col gap-6">
-      
+    <!-- Highlights -->
+    <div class="w-full md:w-1/2 flex flex-col gap-4 items-stretch justify-between">
+
+      <!--Highlighted media -->
       <div class="element-box flex flex-col gap-4">
-        <div class="flex justify-between items-end border-b pb-2">
-          <h2 class="text-lg font-bold text-primary">Contenuti In Evidenza</h2>
-          <a routerLink="/media" class="text-primary hover:underline hover:text-secondary font-medium text-xs mb-0.5">
+        <div class="flex justify-between items-end border-b border-gray-300 pb-2">
+          <h2>Contenuti In Evidenza</h2>
+          <a routerLink="/media" class="text-primary hover:underline hover:text-secondary font-medium text-sm mb-0.5">
             Vedi tutti &rarr;
           </a>
         </div>
         <div class="grid grid-cols-1 gap-4">
           @for (media of featuredMedia(); track media.id){
-            <app-media-card [media]="media"></app-media-card>
+          <app-media-card [media]="media"></app-media-card>
           }
         </div>
       </div>
 
-      <div class="element-box flex flex-col gap-4">
-        <div class="flex justify-between items-end border-b pb-2">
-          <h2 class="text-lg font-bold text-primary">Prossimi Interventi</h2>
-          <a routerLink="/interventi" class="text-primary hover:underline hover:text-secondary font-medium text-xs mb-0.5">
+      <!-- Highlighted events-->
+      <div class="element-box flex flex-col gap-4 h-full justify-center-safe">
+        <div class="flex justify-between items-end border-b border-gray-300 pb-2">
+          <h2>Prossimi Interventi</h2>
+          <a routerLink="/interventi"
+            class="text-primary hover:underline hover:text-secondary font-medium text-sm mb-0.5">
             Tutti gli interventi &rarr;
           </a>
         </div>
-        <div class="grid grid-cols-1 gap-4">
+        <div class="grid grid-cols-1 gap-4 divide-y divide-primary/50">
           @for (event of featuredEvents(); track event.id) {
-            <app-event-card [event]="event"></app-event-card>
+          <app-event-card [event]="event"></app-event-card>
           } @empty {
-            <p class="text-sm text-gray-500 italic">Nessun intervento in programma.</p>
+          <p class="text-sm text-gray-500 italic">Nessun intervento in programma.</p>
           }
         </div>
       </div>
-
     </div>
   </div>
 </div>

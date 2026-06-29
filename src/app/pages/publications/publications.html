@@ -1,30 +1,49 @@
 <div>
-    <!-- Grid of books on desktop, drop down menu on mobile -->
+    <!-- Grid of books -->
     <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
         @for(book of books(); track book.id) {
         <app-book-card [book]="book"></app-book-card>
         }
     </div>
 
-    <!-- List of publications on desktop, drop down menu on mobile -->
-    <div class="element-box divide-y divide-primary/50 mb-4">
-        <h1 class="mb-4"> Pubblicazioni e Abstract su temi
-            relativi a Mindfulness e Meditazione </h1>
-        <div class="flex flex-col gap-2 divide-y divide-primary/50 pt-4">
-            @for(publication of publications(); track publication.id) {
-            <app-publication-card [publication]="publication"></app-publication-card>
-            }
+    <!-- First section of publications -->
+    <div class="element-box mb-4 flex flex-col md:flex-row-reverse items-start gap-6 md:gap-12">
+
+        <div class="sticky-image-glue">
+            <img src="./mindfulness.jpeg" alt="Mindfulness illustration"
+                class="sticky-image">
         </div>
+
+        <div class="flex-1 w-full divide-y divide-primary/50">
+            <h1 class="mb-4"> Pubblicazioni e Abstract su temi
+                relativi a Mindfulness e Meditazione </h1>
+            <div class="flex flex-col gap-2 divide-y divide-primary/50 pt-4">
+                @for(publication of publications(); track publication.id) {
+                <app-publication-card [publication]="publication"></app-publication-card>
+                }
+            </div>
+        </div>
+
+        
     </div>
 
-    <!-- List of 'other works' -->
-    <div class="element-box divide-y divide-primary/50 mb-4">
-        <h1 class="mb-4">Altri lavori disponibili in rete su biologia, filosofia, buddhismo</h1>
-        <div class="flex flex-col gap-2 divide-y divide-primary/50">
-            @for(work of otherWork(); track work.id){
-            <app-publication-card [publication]="work"></app-publication-card>
-            }
+    <!--Second section of publications -->
+    <div class="element-box mb-4 flex flex-col md:flex-row items-start gap-6 md:gap-12">
+
+        <div class="sticky-image-glue">
+            <img src="./biology.jpeg" alt="Biology and philosophy illustration"
+                class="sticky-image">
         </div>
+
+        <div class="flex-1 w-full md:order-0 divide-y divide-primary/50">
+            <h1 class="mb-4">Altri lavori disponibili in rete su biologia, filosofia, buddhismo</h1>
+            <div class="flex flex-col gap-2 divide-y divide-primary/50">
+                @for(work of otherWork(); track work.id){
+                <app-publication-card [publication]="work"></app-publication-card>
+                }
+            </div>
+        </div>
+
     </div>
 
 </div>

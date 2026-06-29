@@ -1,43 +1,46 @@
-<!-- Image on the Right, Title and Subtitle, details underneath that, with buy button under that, and description with extension underneath-->
-<div class="element-box
-min-h-160 sm:min-h-110 md:min-h-140 lg:min-h-130">
-    <div class="flex flex-col sm:flex-row items-start gap-6">
+<!-- Image on the left, Title and Subtitle, details underneath that, with buy button under that, and description with extension underneath-->
+<div class="element-box h-full flex flex-col justify-between @container">
+    <div class="flex flex-col @md:flex-row items-start gap-6">
         <img [src]="book().imageUrl" alt="{{ book().title }} cover image
-        " class="w-1/2 sm:w-1/3 aspect-3/4 max-w-60 my-4 object-cover shrink-0 shadow-md mx-auto select-none">
+        " class="w-1/2 @md:w-1/3 aspect-3/4 max-w-60 my-4 object-cover shrink-0 shadow-md mx-auto select-none">
         <div class="">
             <!-- Title and Subtitle -->
-            <div class="contents divide-y divide-gray-300 pb-4">
-                <h1 class="text-primary text-xl md:text-2xl lg:text-3xl font-extrabold">{{ book().title }}</h1>
-                <h2 class="text-gray-800 mb-4">{{ book().subtitle }}</h2>
+            <div class="border-b border-gray-300 sm:pb-3 mb-2">
+                <h1>{{ book().title }}</h1>
+                <h2 class="text-gray-700 mb-2">{{ book().subtitle }}</h2>
             </div>
-            
+
             <!-- Button on top on mobile, underneath the description on desktop -->
             <div class="flex flex-col">
                 <!-- Button to buy the book-->
-                <a class="bg-primary text-white py-4 md:my-8 px-6 rounded-lg hover:bg-secondary transition-colors block
-            mx-auto ease-in-out duration-200 w-full md:w-fit order-first md:order-last" [href]="book().linkUrl" target="_blank">{{
+                <a class="bg-primary text-white text-center py-4 md:my-8 px-6 rounded-lg hover:bg-secondary transition-colors block
+            mx-auto ease-in-out duration-200 w-full @lg:w-fit order-first @lg:order-last" [href]="book().linkUrl"
+                    target="_blank">{{
                     book().linkLabel}}</a>
 
                 <!-- Description with extension -->
-                <div>
-                    <div [style.max-height]="!isOpen() ? '80px' : '2000px'"
-                        class="overflow-hidden transition-all duration-600 ease-in-out mt-4">
-                        <p class="h-full text-left md:text-justify leading-relaxed!">
-                            {{book().description }}</p>
+                <div class="w-full">
+                    <div class="transition-[max-height] duration-500 ease-in-out overflow-hidden w-full relative"
+                        [class.max-h-30]="!isOpen()" [class.max-h-300]="isOpen()">
+
+                        <p class="text-left md:text-justify leading-relaxed! mt-2">
+                            {{ book().description }}
+                        </p>
+                        <!-- Getting this gradient to work was pain and not worth it lol-->
+                        <div class="absolute bottom-0 left-0 right-0 h-10 bg-linear-to-t from-white to-transparent transition-opacity duration-300 pointer-events-none"
+                            [class.opacity-100]="!isOpen()" [class.opacity-0]="isOpen()">
+                        </div>
                     </div>
 
-                    <!-- TODO find someway to add the gradient to the text-->
-
-
                     <button (click)="toggleDescription()"
-                        class="text-primary hover:underline hover:text-secondary cursor-pointer text-sm font-medium">
+                        class="text-primary hover:underline hover:text-secondary cursor-pointer text-sm font-medium my-2 block">
                         <span>{{ !isOpen() ? 'Leggi tutto' : 'Riduci' }}</span>
-                        <span class="inline-block transform transition-transform duration-200"
+                        <span class="inline-block transform transition-transform duration-200 ml-1"
                             [class.rotate-180]="isOpen()">↓</span>
                     </button>
                 </div>
             </div>
         </div>
     </div>
-    <p class="text-gray-600! text-xs sm:text-sm mt-4 sm:mt-0 max-sm:hidden">{{ book().details}}</p>
+    <p class="text-gray-600! text-xs @md:text-sm mt-4 @md:mt-0 @max-md:hidden">{{ book().details}}</p>
 </div>

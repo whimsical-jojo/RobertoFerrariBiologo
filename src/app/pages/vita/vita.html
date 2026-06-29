@@ -1,10 +1,13 @@
-<div class="mx-auto element-box items-center">
-    <img src="./RFerrari.png" alt="Roberto Ferrari" class="w-full max-w-[320px] mx-auto mb-6 rounded-lg shadow-xl
-    object-cover
-            md:float-right md:ml-8 md:w-1/3 md:max-w-sm">
-    <div class="divide-y divide-gray-300 mb-6">
+<div class="mx-auto element-box flex flex-col md:flex-row-reverse items-start gap-6 md:gap-12">
+    
+    <div class="sticky-image-glue">
+        <img src="./RFerrari.png" alt="Roberto Ferrari" 
+             class="sticky-image">
+    </div>
+
+    <div class="divide-y divide-gray-300">
         <h1>Biografia</h1>
-        <p class="pt-4" [class.line-clamp-8]="isPreview()">
+        <p class="pt-4">
             Roberto Ferrari (Modena, 1964) è biologo, docente, mindfulness trainer, insegnante di yoga e meditazione.
             <br> <br>
             E’ docente presso il Master “Mindfulness, Pratica Clinica e Neuroscience” della Università La Sapienza di
@@ -35,7 +38,7 @@
             ha conosciuto nel 1996.
             <br> <br>
             Pratica Yoga dal 1986, conoscendo maestri di yoga e meditazione europei, americani ed indiani secondo
-            diverse tradizioni. Dal 1993 al 2020 è stato allievo diretto di meditazione e Ki-Aikido del Maestro Franco
+            diverse tradizioni. Dal 1993 al 2020 è stato allievo directo di meditazione e Ki-Aikido del Maestro Franco
             Bertossa che ha seguito ricevendo preziosi insegnamenti, durante incontri periodici e seminari residenziali,
             che restano riferimento per la sua ricerca. Insegna Hatha Yoga dal 1993 secondo la scuola di Gerard Blitz e
             Meditazione dal 1996, operando per molti anni all’interno del Centro Universitario Sportivo dell’Università
@@ -46,52 +49,44 @@
             conduzione di gruppi di donne vittime di violenza nella relazione di intimità.
         </p>
     </div>
-    <div>
+
+    
+</div>
+
+<div class="mx-auto element-box flex flex-col md:flex-row items-start gap-6 md:gap-12 mt-4">
+    
+    <div class="sticky-image-glue">
+        <img src="./philosophy.jpeg" alt="Happy dog petting picture"
+            class="sticky-image">
+    </div>
+
+    <div class="flex-1 w-full order-last md:order-0">
         <div class="divide-y divide-gray-300 mb-4">
             <h1 class="text-lg md:text-xl lg:text-2xl font-bold text-primary">Educazione Filosofica</h1>
-            <p>La sua educazione filosofica si è svolta partecipando a corsi e seminari intensivi residenziali in Italia
-                e
-                all’estero di 4-7 giorni, ciascuno con uno specialista:</p>
+            <p class="pt-4">La sua educazione filosofica si è svolta partecipando a corsi e seminari intensivi residenziali in Italia
+                e all’estero di 4-7 giorni, ciascuno con uno specialista:</p>
         </div>
         <ul>
             <li>Yeshi Namkhai (Merigar, Tenerife) Dzog Chen teachings, 2025, 2026</li>
-            <li>Ven. Lama Ghesche Sherab ((Pomaia Monastery, Italy; Santa Fe Dharma Center, U.S.) on Tzong Khapa’s
-                philosophy – 2024, 2025</li>
+            <li>Ven. Lama Ghesche Sherab (Pomaia Monastery, Italy; Santa Fe Dharma Center, U.S.) on Tzong Khapa’s philosophy – 2024, 2025</li>
             <li>Henk Barendregt (Matematico, Nimjen University) su meditazione buddista Vipassana – 2024, 2025</li>
             <li>Massimo Raveri (University Cà Foscari, Venice) on History and Anthropology of Buddhism – 2023</li>
             <li>Ven. Lama Gheshe Tenzin Tenphel (Pomaia Monastery, Italy) on Nagarjuna’s philosophy – 2022, 2023</li>
-            <li>Michel Bitbol (Filosofo e Biofisico, CNRS/CREA Paris) su epistemologia e studi sulla coscienza – 2007,
-                2008,
-                2009, 2012, 2013</li>
+            <li>Michel Bitbol (Filosofo e Biofisico, CNRS/CREA Paris) su epistemologia e studi sulla coscienza – 2007, 2008, 2009, 2012, 2013</li>
             <li>Giulio Giorello (Filosofo, Università di Milano) su filosofia della scienza – 2008</li>
             <li>Luigi Perissinotto (Filosofo, Università di Venezia) su Wittgenstestein e filosofia del ‘900- 2007</li>
-            <li>Ohashi Ryosuke (Filosofo, Kyoto University) su testi del Maestro Zen Dogen e filosofi giapponesi del
-                ‘900
-                della Scuola di Kyoto – 2006, 2007, 2010</li>
-            <li>Ueda Shizuteru (Filosofo della religione, Università di Kyoto) sul testo “Dieci figure dell’uomo con il
-                bove” – 2006</li>
-            <li>Tupten Jimpa (Filosofo, McGill University, Montreal) su testi di Nagarjuna, e storia del Buddismo
-                Indo-Tibetano – 2004, 2005</li>
+            <li>Ohashi Ryosuke (Filosofo, Kyoto University) su testi del Maestro Zen Dogen e filosofi giapponesi del ‘900 della Scuola di Kyoto – 2006, 2007, 2010</li>
+            <li>Ueda Shizuteru (Filosofo della religion, Università di Kyoto) sul testo “Dieci figure dell’uomo con il bove” – 2006</li>
+            <li>Tupten Jimpa (Filosofo, McGill University, Montreal) su testi di Nagarjuna, e storia del Buddismo Indo-Tibetano – 2004, 2005</li>
             <li>James Heisig (Filosofo e sacerdote, Nanzan Institute- Japan) sul dialogo interreligioso – 2005</li>
-            <li>Douglas Hofstadter (Scienziato Cognitivo, Indiana University) su scienze cognitive e autoreferenza –
-                2004
-            </li>
-            <li>Mario Piantelli (Filosofo Orientalista, Università di Torino) su filosofia e mistica dell’India – 2003
-            </li>
-            <li>Mauro Bergonzi (Filosofo e Psicologo, Università di Napoli) sulla psicologia buddista – 2002, 2020, 2024
-            </li>
-            <li>Stephen Bachelor (Maestro di meditazione e scrittore, Sharpam College, UK) su buddismo e Occidente –
-                1999
-            </li>
-            <li>Giangiorgio Pasqualotto (Filosofo, Università di Padova), su filosofia occidentale e orientale (1998)
-            </li>
-            <li>Vimala Takar (Filosofa e Maestra di Meditazione, Università di Nagpur) sui testi “Bhagavat Gita” e
-                “Ishavasya Upanishad” – 1992</li>
-            <li>Francisco Varela (Neuroscienziato, CNRS/CREA Paris) seminario di scienze cognitive presso Università di
-                Bologna “Un know-how per l’etica” – 1991</li>
-            <li>Negli stessi anni ha partecipato a numerosi convegni con studiosi a confronto, sul tema della
-                interazione
-                tra scienza, filosofia e spiritualità</li>
+            <li>Douglas Hofstadter (Scienziato Cognitivo, Indiana University) su scienze cognitive e autoreferenza – 2004</li>
+            <li>Mario Piantelli (Filosofo Orientalista, Università di Torino) su filosofia e mistica dell’India – 2003</li>
+            <li>Mauro Bergonzi (Filosofo e Psicologo, Università di Napoli) sulla psicologia buddista – 2002, 2020, 2024</li>
+            <li>Stephen Bachelor (Maestro di meditazione e scrittore, Sharpam College, UK) su buddismo e Occidente – 1999</li>
+            <li>Giangiorgio Pasqualotto (Filosofo, Università di Padova), su filosofia occidentale e orientale (1998)</li>
+            <li>Vimala Takar (Filosofa e Maestra di Meditazione, Università di Nagpur) sui testi “Bhagavat Gita” e “Ishavasya Upanishad” – 1992</li>
+            <li>Francisco Varela (Neuroscienziato, CNRS/CREA Paris) seminario di scienze cognitive presso Università di Bologna “Un know-how per l’etica” – 1991</li>
+            <li>Negli stessi anni ha partecipato a numerosi convegni con studiosi a confronto, sul tema della interazione tra scienza, filosofia e spiritualità</li>
         </ul>
     </div>
 </div>

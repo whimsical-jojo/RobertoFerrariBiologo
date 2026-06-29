@@ -1,26 +1,25 @@
 <!-- Yeah I was feeling lazy with this one so I gave Gemini an incomplete version and told it to fill in and complete-->
 <div class="element-box divide-y divide-primary/30">
-    <div class="flex flex-row items-center overflow-auto gap-2 mb-4 pb-4">
-        <h2 class="text-primary text-base font-semibold whitespace-nowrap mr-2">Filtra per categoria:</h2>
-        
-        @for (option of filterOptions; track option.value) {
-            <button (click)="setFilter(option.value)" 
-                [attr.data-active]="activeFilter() === option.value"
-                class="nav-link px-3 py-1.5 rounded transition-all duration-200 
+    <div class="pb-4">
+        <h2 class="text-primary text-base font-semibold whitespace-nowrap mb-1">Filtra per categoria:</h2>
+        <div class="flex flex-row items-center overflow-auto gap-2">
+            @for (option of filterOptions; track option.value) {
+            <button (click)="setFilter(option.value)" [attr.data-active]="activeFilter() === option.value" class="nav-link px-3 py-1.5 rounded transition-all duration-200 
                        hover:bg-primary/10 
                        data-[active=true]:bg-primary/10 
                        data-[active=true]:text-primary! 
                        data-[active=true]:font-semibold">
                 {{ option.label }}
             </button>
-        }
+            }
+        </div>
     </div>
-    
-    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 pt-4">
+
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-1 sm:gap-4 pt-4">
         @for(media of filteredMedia(); track media.id) {
-            <app-media-card [media]="media"></app-media-card>
+        <app-media-card [media]="media"></app-media-card>
         } @empty {
-            <p class="text-gray-500 text-center col-span-full py-8">Nessun contenuto trovato per questa categoria.</p>
+        <p class="text-gray-500 text-center col-span-full py-8">Nessun contenuto trovato per questa categoria.</p>
         }
     </div>
 </div>
