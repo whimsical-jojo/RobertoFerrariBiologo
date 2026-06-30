@@ -17,6 +17,7 @@ export interface Media {
     url: string | SafeResourceUrl;
     category: 'other' | 'reviews-and-interviews' | 'book-presentation';
     format: 'video' | 'audio' | 'pdf' | 'article';
+    imageUrl?: string
 }
 
 export interface Publication {

@@ -88,7 +88,8 @@
     "title": "A Rai Radio3 - Uomini e Profeti (Meditare con gli animali)",
     "url": "https://www.raiplaysound.it/audio/2025/12/Uomini-e-Profeti-del-20122025-ac0e7f82-b93c-4240-aa07-dd373216396a.html",
     "category": "reviews-and-interviews",
-    "format": "audio"
+    "format": "audio",
+    "imageUrl": "./media-images/uomini-e-profeti.avif"
   },
   {
     "id": 14,
@@ -116,7 +117,8 @@
     "title": "Rai Radio3 - Uomini e Profeti - Pensare oltre l'umano",
     "url": "https://www.raiplaysound.it/audio/2026/02/Uomini-e-Profeti-del-15022026-1a28a928-1cfb-45bc-8b15-8956fe671905.html",
     "category": "other",
-    "format": "audio"
+    "format": "audio",
+    "imageUrl": "./media-images/uomini-e-profeti.avif"
   },
   {
     "id": 18,
