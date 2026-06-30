@@ -1,8 +1,9 @@
 <div>
     <!-- Grid of books -->
-    <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-4 mb-4">
         @for(book of books(); track book.id) {
-        <app-book-card [book]="book"></app-book-card>
+        <app-book-card [book]="book" class="col-span-2"
+        [class.last:col-start-2]="$last && books().length % 2 === 1"></app-book-card>
         }
     </div>
 

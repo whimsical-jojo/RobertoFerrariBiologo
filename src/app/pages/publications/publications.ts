@@ -13,7 +13,7 @@ import { PublicationCard } from "../../components/publication-card/publication-c
 export class Publications {
   bibliographyService = inject(BibliographyService);
   
-  books = toSignal(this.bibliographyService.getBooks());
+  books = toSignal(this.bibliographyService.getBooks(), { initialValue: [] });
   publications = toSignal(this.bibliographyService.getPublications());
   otherWork = toSignal(this.bibliographyService.getOtherWork());
 }

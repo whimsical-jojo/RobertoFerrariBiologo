@@ -10,6 +10,16 @@
     "linkLabel": "Acquista su Laterza"
   },
   {
+    "id": 5,
+    "title": "Gratitudine",
+    "subtitle": "Lucy (add editore, 2026)",
+    "details": "Uscita: semestrale | Data uscita: 15 Maggio 2026 | Pagine: 160, a colori | Formato: 17x24 cm | ISBN: 9788867835683",
+    "description": "La gratitudine: un sentimento universale, presente in culture e tempi diversi, e un valore fondamentale per le relazioni umane e il benessere personale. Da Aristotele alle filosofie orientali è considerata una virtù cardinale e una chiave per una vita piena e consapevole. In questo volume ne esploreremo la complessità e le molteplici dimensioni – scientifiche, filosofiche, psicologiche, culturali e sociali – attraverso una ricca polifonia di voci: Marco Aime, Edoardo Camurri, Eleonora Dragotto, Eugenio Giannetta, Roberto Ferrari, Giusi Marchetta, Rosella Postorino, Giuseppe Sansonna, Nadeesha Uyangoda e con l’editoriale di Nicola Lagioia. Questo numero vuole essere un invito, e insieme un’esortazione, a vivere la gratitudine come pratica quotidiana e gesto rivoluzionario, capace di contrastare cinismo e indifferenza e di riportare al centro bellezza, solidarietà e la forza di un semplice “grazie”. Nell’inserto, fotografie di Héctor A. Chico tratte dal progetto ECVM – El Culto de la Vida y de la Muerte. Le foto della rivista sono di Elena Sbordoni. Direttore editoriale: Nicola Lagioia. Direttore responsabile: Eugenio Giannetta. Coordinamento: Giorgio Gianotto. Art direction: Francesco Serasso. Graphic Design: Marta Savignano, Francesco Serasso, Lorenzo Matteucci. Copertina di: Marta Savignano.",
+    "imageUrl": "./book-covers/Gratitudine.webp",
+    "linkUrl": "https://addeditore.it/prodotto/lucy-gratitudine/",
+    "linkLabel": "Acquista su add editore"
+  },
+  {
     "id": 2,
     "title": "Un respiro alla volta",
     "subtitle": "Storie di Mindfulness in Oncologia e tra gli animali (Pendragon, 2021)",
@@ -37,6 +47,6 @@
     "description": "Franco Bertossa e Roberto Ferrari in questa ultima pubblicazione del CentroStudi ASIA ci guidano in un viaggio attraverso i più recenti studi scientifici e filosofici sulla coscienza e la mente umana, in compagnia degli esperimenti mentali di Matrix, il film di epistemologia popolare più stimolante di questi anni. Un viaggio fino alle radici della mente in oriente e occidente, in realtà una risalita a monte: prima dei pensieri, delle emozioni, delle sensazioni, prima delle spinte inconsce e della teorie sul cervello. Prima di questi anni e di questo mondo. Prima, e da sempre, è acceso lo sguardo che vede tutto questo. Ha una origine, un occhio? Lo sguardo si apre sul nostro mondo reale o virtuale? Lo sguardo è un fatto, sperimentabile. Indubitabile. È il luogo del nostro principio, l’ultima terra sconosciuta, l’unica reale. Chi è lo sguardo?",
     "imageUrl": "./book-covers/LoSguardoSenzaOcchio.jpg",
     "linkUrl": "https://shop.asia.it/prodotto/lo-sguardo-senza-occhio/",
-    "linkLabel": "Acquista sul sito di ASIA Modena"
+    "linkLabel": "Acquista su asia.it"
   }
 ]

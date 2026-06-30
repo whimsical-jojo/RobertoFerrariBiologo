@@ -27,7 +27,7 @@ export class MediaService {
   return this.getMedia().pipe(
     map(medias => {
       // Replace with whichever 2 specific media IDs are featured
-      const featuredMediaIds = [1, 17]; 
+      const featuredMediaIds = [1, 13]; 
       return medias.filter(m => featuredMediaIds.includes(m.id));
     })
   );
