@@ -577,7 +577,7 @@
   },
   {
     "id": 52,
-    "startDate": "2026-07-08T18:30:00",
+    "startDate": "2026-07-09T18:30:00",
     "hostContext": "Presentazione di \"Meditare con gli animali\" (Laterza, 2025)",
     "location": "Libreria Panisperna, Via Panisperna 220, Rione Monti, Roma",
     "title": "Presentazione di \"Meditare con gli animali\"",
@@ -586,5 +586,17 @@
       "Isabella Schiavone (Giornalista RAI e Istruttore Mindfulness)"
     ],
     "imageUrl": ""
-  }
+  },
+  {
+  "id": 53,
+  "startDate": "2026-09-17",
+  "endDate": "2026-09-19",
+  "hostContext": "Università degli Studi Internazionali di Roma (UNINT), International Conference on Environmental Mindfulness (ICEM, 2nd edition)",
+  "title": "Co-emergence, Animality, and the flesh of the world. A Phenomenological Approach.",
+  "speakers": [
+    "Ferrari R."
+  ],
+  "link": "https://www.environmentalmindfulness.org/",
+  "imageUrl": ""
+}
 ]

@@ -17,7 +17,7 @@ export class EventService {
   return this.getEvents().pipe(
     map(events => {
       // Replace with whichever 2 specific event IDs are featured yes this is a terrible solution lol
-      const featuredEventIds = [1, 52]; 
+      const featuredEventIds = [1, 53]; 
       return events.filter(e => featuredEventIds.includes(e.id));
     })
   );
