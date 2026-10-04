@@ -16,9 +16,15 @@ export class EventService {
   getFeatured(): Observable<ScheduledEvent[]> {
   return this.getEvents().pipe(
     map(events => {
-      // Replace with whichever 2 specific event IDs are featured yes this is a terrible solution lol
-      const featuredEventIds = [1, 53]; 
-      return events.filter(e => featuredEventIds.includes(e.id));
+      const now = new Date();
+
+      return events
+        // Filter out past events
+        .filter(event => new Date(event.startDate) >= now)
+        // Sort chronologically by start date
+        .sort((a, b) => new Date(a.startDate).getTime() - new Date(b.startDate).getTime())
+        // Take the first two upcoming events
+        .slice(0, 2);
     })
   );
 }

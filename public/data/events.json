@@ -15,14 +15,6 @@
     "link": "https://www.filosofiaorientalecomparativa.it/summer-school/"
   },
   {
-    "id": 2,
-    "startDate": "2026-10-14",
-    "endDate": "2026-10-18",
-    "title": "Festival Torino Spiritualità 2026",
-    "location": "Torino",
-    "imageUrl": ""
-  },
-  {
     "id": 3,
     "startDate": "2026-04-15",
     "endDate": "2026-04-19",
@@ -598,5 +590,56 @@
   ],
   "link": "https://www.environmentalmindfulness.org/",
   "imageUrl": ""
-}
+  },
+  {
+    "id": 54,
+    "startDate": "2026-10-10T15:00:00",
+    "endDate": "2026-10-11",
+    "hostContext": "Congresso Nazionale CNCP 2026, Riccione - La cultura della relazione",
+    "title": "Mindfulness, teoria e pratica",
+    "description": "Uno strumento per stare bene, ma soprattutto per vedere bene dentro di sé, ed immergersi nell'esistenza, nelle difficoltà e nello stupore di essere vivi.",
+    "speakers": [
+      "Roberto Ferrari"
+    ],
+    "link": "https://www.cncp.it/articoli/congresso-nazionele-cncp-2026/",
+    "imageUrl": ""
+  },
+  {
+    "id": 55,
+    "startDate": "2026-10-17T17:30:00",
+    "hostContext": "Torino Spiritualità, XXII edizione, Memento Amoris. Nessuno comincia da sé (14-18 ottobre 2026)",
+    "location": "il Circolo dei lettori, Sala Grande",
+    "title": "La vita in quarta persona - Animali, meditazione e altri modi di percepire",
+    "speakers": [
+      "Roberto Ferrari"
+    ],
+    "link": "https://www.torinospiritualita.org/wp-content/uploads/2026/09/prog_tosp_2026_WEB.pdf",
+    "imageUrl": ""
+  },
+  {
+    "id": 56,
+    "startDate": "2026-10-18T10:00:00",
+    "endDate": "2026-10-18T11:30:00",
+    "hostContext": "Torino Spiritualità, XXII edizione, Memento Amoris. Nessuno comincia da sé (14-18 ottobre 2026)",
+    "location": "il Circolo dei lettori, Sala Gioco",
+    "title": "Prima di dire io - Pratica di mindfulness su ciò che ci precede",
+    "description": "Si raccomandano abiti comodi e tappetino. Per chi lo desidera, cuscino da meditazione",
+    "speakers": [
+      "Roberto Ferrari"
+    ],
+    "link": "https://www.torinospiritualita.org/wp-content/uploads/2026/09/prog_tosp_2026_WEB.pdf",
+    "imageUrl": ""
+  },
+  {
+    "id": 57,
+    "startDate": "2026-11-13T08:30:00",
+    "endDate": "2026-11-13T14:30:00",
+    "hostContext": "Convegno della Unione Terre di Castelli: Il peso invisibile: genitori, operatori e comunità nei tempi della stanchezza e dell'isolamento",
+    "location": "Teatro Comunale La Venere, Via Renata Fonte 1, Savignano sul Panaro (MO)",
+    "title": "Ri-posare la mente, incontrare l'altro: cos'è e come si pratica la mindfulness",
+    "speakers": [
+      "Roberto Ferrari"
+    ],
+    "imageUrl": ""
+  }
 ]
