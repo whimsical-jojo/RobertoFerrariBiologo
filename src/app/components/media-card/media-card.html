@@ -49,7 +49,12 @@
 
     @case ('article') {
     <a [href]="media().url" target="_blank" class="flex flex-col items-center justify-center aspect-video mt-auto cursor-pointer no-underline
-            border border-primary/30 rounded hover:bg-primary/10 group">
+            border border-primary/30 rounded hover:bg-primary/10 group min-h-0">
+        @if(media().imageUrl) {
+            <!--I swear if this starts stretching out the container on Chrome again I'll leave civilization behind and become a hermit goat farmer-->
+            <img [src]="media().imageUrl" class="w-full object-scale-down max-h-3/5">
+        }
+        @else {
         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
             class="fill-primary group-hover:fill-secondary w-16 h-16 transition-colors duration-200"
             viewBox="0 0 16 16">
@@ -58,6 +63,7 @@
             <path
                 d="M2 3h10v2H2zm0 3h4v3H2zm0 4h4v1H2zm0 2h4v1H2zm5-6h2v1H7zm3 0h2v1h-2zM7 8h2v1H7zm3 0h2v1h-2zm-3 2h2v1H7zm3 0h2v1h-2zm-3 2h2v1H7zm3 0h2v1h-2z" />
         </svg>
+        }
         <span
             class="text-primary group-hover:text-secondary mt-2 font-medium text-sm transition-colors duration-200">Leggi
             Articolo</span>
